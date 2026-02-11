@@ -10,4 +10,3 @@ theme: jekyll-theme-cayman
 exclude:
   - Gemfile
   - Gemfile.lock
-  - .nojekyll
