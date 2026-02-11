@@ -19,10 +19,10 @@ Pear,Yellow,"Pear-shaped"
 {{#get_web_data:url=http://www.commontk.org/index.php/Special:GetData/Sandbox_data|format=CSV with header|data=name=Name,color=Color,shape=Shape}}
 {| class="wikitable"
 ! Name
-! Color {{#for_external_table:nowiki/
+! Color `{{#for_external_table:nowiki/`
 {{!}}-
-{{!}} [{{{name}}}]({{{name}}})({{{name}}}.md)
-{{!}} {{{color}}} }}
+{{!}} [{`{{name}}`}]({`{{name}}`})({`{{name}}`}.md)
+{{!}} {`{{color}}`} }}
 |}
 
 
@@ -41,8 +41,8 @@ Pear,Yellow,"Pear-shaped"
 {{#get_web_data:url=http://discoursedb.org/wiki/Special:GetData/Fruits_data|format=CSV with header|data=name=Name,color=Color,shape=Shape}}
 {| class="wikitable"
 ! Name
-! Color {{#for_external_table:nowiki/
+! Color `{{#for_external_table:nowiki/`
 {{!}}-
-{{!}} [{{{name}}}]({{{name}}})({{{name}}}.md)
-{{!}} {{{color}}} }}
+{{!}} [{`{{name}}`}]({`{{name}}`})({`{{name}}`}.md)
+{{!}} {`{{color}}`} }}
 |}

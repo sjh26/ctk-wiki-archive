@@ -1,6 +1,8 @@
 ---
 title: Documentation/DicomApplicationHosting
+render_with_liquid: false
 ---
+
 
 1. DICOM Application Hosting
   1. Introduction
@@ -37,3 +39,4 @@ Some initial work has been done during the [ Sophia-Antipolis Hackfest]( Sophia-
 [Documentation/DicomApplicationHostingReference](Documentation/DicomApplicationHostingReference)(Documentation/DicomApplicationHostingReference.md)
 
 WSDL, XSD, and RNC files: [file:wsdl_ft.zip](file:wsdl_ft.zip)(file:wsdl_ft.zip.md)
+

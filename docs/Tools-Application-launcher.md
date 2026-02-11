@@ -1,9 +1,9 @@
 ---
-title: Tools: Application launcher
+title: "Tools: Application launcher"
 ---
 
-{{banner
-| text = [For the latest version of this page, visit the CTkAppLauncher README on GitHub.](For the latest version of this page, visit the CTkAppLauncher README on GitHub.)(https://github.com/commontk/AppLauncher#readme)}}
+``{{banner`
+| text = [For the latest version of this page, visit the CTkAppLauncher README on GitHub.](For the latest version of this page, visit the CTkAppLauncher README on GitHub.}}`(https://github.com/commontk/AppLauncher#readme)}}
 
 [Launcher Logo](Launcher Logo)(200px|frame|right|Application)(Image:commontk_applauncher.png.md)
 
@@ -13,7 +13,7 @@ CTK Application launcher is a lightweight open-source utility allowing to set en
 
     1. Getting started
 You could either:
-- download the [pre-built binaries](pre-built binaries)(https://github.com/commontk/AppLauncher/releases) matching your operating system {{note-with-icon-only}}See [should I used the pre-build binaries ?](should I used the pre-build binaries ?)(#Why)(#Why should I used the pre-build binaries ?.md)''
+- download the [pre-built binaries](pre-built binaries)(https://github.com/commontk/AppLauncher/releases) matching your operating system `{{note-with-icon-only}}`See [should I used the pre-build binaries ?](should I used the pre-build binaries ?)(#Why)(#Why should I used the pre-build binaries ?.md)''
 
 or 
 

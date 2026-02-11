@@ -1,5 +1,6 @@
 ---
 title: Documentation/Plugin Framework
+render_with_liquid: false
 ---
 
 The CTK Plugin Framework can shortly be described as a dynamic component system for C++. It is directly based on the [OSGi](OSGi)(http://www.osgi.org) specifications, hence any material explaining OSGi also applies to CTK (without the Java specifics, of course).

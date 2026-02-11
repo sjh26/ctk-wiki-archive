@@ -2,6 +2,16 @@
 
 This repository contains the converted CommonTK (CTK - The Common Toolkit) wiki content from MediaWiki format to Markdown for use with GitHub Pages.
 
+## Quick Start
+
+Convert a MediaWiki dump to GitHub Pages in one command:
+
+```bash
+python convert_wiki.py
+```
+
+See **[CONVERSION_GUIDE.md](CONVERSION_GUIDE.md)** for detailed instructions.
+
 ## Conversion Details
 
 - **Source**: MediaWiki XML dump (`commontk-wiki-dumpbackup.xml`)
@@ -10,10 +20,12 @@ This repository contains the converted CommonTK (CTK - The Common Toolkit) wiki 
 - **Pages skipped**: 314 (Files, User pages, Talk pages, Templates, etc.)
 - **Output format**: Markdown with Jekyll frontmatter
 
-## Structure
+## Repository Structure
 
-- `/docs/` - Contains all converted markdown files
-- `convert_mediawiki_to_md.py` - Python conversion script
+- `/docs/` - All converted markdown files (GitHub Pages source)
+- `convert_wiki.py` - **All-in-one conversion script** ⭐
+- `CONVERSION_GUIDE.md` - Detailed conversion instructions
+- `serve.py` - Local Python web server for testing
 
 ## Conversion Features
 

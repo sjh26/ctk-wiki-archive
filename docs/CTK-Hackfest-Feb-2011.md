@@ -1,6 +1,8 @@
 ---
 title: CTK-Hackfest-Feb-2011
+render_with_liquid: false
 ---
+
 
 1. Event pictures
 {|
@@ -276,3 +278,4 @@ Achievements:
 
 **Connectivity**
 - TBD
+

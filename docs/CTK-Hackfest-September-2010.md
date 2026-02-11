@@ -1,6 +1,8 @@
 ---
 title: CTK-Hackfest-September-2010
+render_with_liquid: false
 ---
+
 
 1. Event pictures
 {|
@@ -229,3 +231,4 @@ If you need further details or we can give you more support, please contact Xavi
 
 **Connectivity**
 1. We will provide both wired and wireless connection
+

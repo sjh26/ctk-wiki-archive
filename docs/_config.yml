@@ -1,4 +1,13 @@
-theme: jekyll-theme-cayman
 title: CommonTK Wiki Archive
 description: Archived documentation from the CommonTK project
 markdown: kramdown
+repository: yourusername/ctk-pages
+baseurl: ""
+url: "http://localhost:4000"
+theme: jekyll-theme-cayman
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .nojekyll

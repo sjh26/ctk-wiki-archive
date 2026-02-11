@@ -2,8 +2,8 @@
 title: Making a Release
 ---
 
-{{banner
-| text = [For the latest version of this page, visit the CTK GitHub wiki.](For the latest version of this page, visit the CTK GitHub wiki.)(https://github.com/commontk/CTK/wiki/Release-Process)}}
+``{{banner`
+| text = [For the latest version of this page, visit the CTK GitHub wiki.](For the latest version of this page, visit the CTK GitHub wiki.}}`(https://github.com/commontk/CTK/wiki/Release-Process)}}
 
 A core developer should use the following steps to create a release ttYYYY-MM-DD/tt of CTK
 

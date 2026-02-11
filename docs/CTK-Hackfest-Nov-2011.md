@@ -1,5 +1,6 @@
 ---
 title: CTK-Hackfest-Nov-2011
+render_with_liquid: false
 ---
 
 1. Event pictures

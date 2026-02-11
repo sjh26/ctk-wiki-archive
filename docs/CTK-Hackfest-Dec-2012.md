@@ -1,5 +1,6 @@
 ---
 title: CTK-Hackfest-Dec-2012
+render_with_liquid: false
 ---
 
 1. Event pictures

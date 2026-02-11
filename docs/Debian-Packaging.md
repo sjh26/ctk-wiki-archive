@@ -1,6 +1,8 @@
 ---
 title: Debian Packaging
+render_with_liquid: false
 ---
+
 
 1. Status
 There is an experimental debian package here: http://packages.qa.debian.org/c/ctk.html
@@ -140,3 +142,4 @@ http://debian.2.n7.nabble.com/Bug-747436-libvtk6-Libraries-are-possibly-underlin
 There is a debian package called libqtsolutions-soap-2.7-1, but there is no development package so it's unclear if this can be useful.
 
 *Update 11/05/2013:* libqtsolutions-soap-2.7-1 is probably not useful. In the CTK context QtSoap is currently only needed for DICOM application hosting which itself is highly experimental and should probably be omitted from an initial debian package anyway
+

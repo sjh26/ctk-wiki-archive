@@ -1,5 +1,6 @@
 ---
 title: Project Ideas
+render_with_liquid: false
 ---
 
 1. Qt Help File

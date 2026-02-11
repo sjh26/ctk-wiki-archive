@@ -1,6 +1,8 @@
 ---
 title: DICOM Application Hosting Testing
+render_with_liquid: false
 ---
+
 
 1. SOAP API Testing
 This sections on SOAP API Testing summarizes experiences gathered at the [in Sophia Antipolis](in Sophia Antipolis)(hackfest)(CTK-Hackfest-Nov-2011.md) in November 2011.
@@ -38,3 +40,4 @@ Just some pieces of information we (Michael C.) gathered during the Sophia-Antip
 
   1. Integration Testing
 In contrast to a conventional Web services architecture, DICOM Application Hosting uses Web services for bidirectional communication between the hosting system and the hosted applications. This limits the use of general SOAP testing suites to relatively simple SOAP message conformance tests. For example, testing the method "notifiyStateChanged" of the host interface requires that "setState" of the application interface has been called before - thus, the test has to be a service provider itself, which is not supported by general high level SOAP testing suites (please correct and add links, if you know testing solutions that allowing this).
+

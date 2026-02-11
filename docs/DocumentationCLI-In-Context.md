@@ -1,6 +1,8 @@
 ---
 title: Documentation/CLI In Context
+render_with_liquid: false
 ---
+
 
 This page lists some example and notes on different integration of CLI modules in different frameworks including CTK (see [Documentation/Command_Line_Interface](Documentation/Command_Line_Interface)(Documentation/Command_Line_Interface.md) for a general overview of CLI modules). The first interoperability testing was done during the [third](third)(http://www.creatis.insa-lyon.fr/Interoperability_workshop) VPH NoE Imaging workshop hold in Lyon, France on October 22-23, 2012. It will be continued in consecutive hackfests. The aim is to try to plug in CLI modules in CLI compatible frameworks and come up with possible improvement of the CLI standard, advice to CLI module and CLI framework developers.
 
@@ -96,3 +98,4 @@ The following image shows a simple workflow that includes the CopyPlugin, after 
 GIMIAS's CLPs and CTK's Command Line Modules can be combined into the same Taverna workflow. See the following image where a Marching Cubes GIMIAS's CLP is used along with the CopyPlugin, a CTK Command Line Module.
 
 [400px](400px)(File:GIMIAS_CTK_WORKFLOW.png.md)
+

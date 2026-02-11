@@ -1,6 +1,8 @@
 ---
 title: Documentation/Interfacing Via OpenGL
+render_with_liquid: false
 ---
+
 
 *This is a development idea for discussion and experimentation at the [2010 Hackfest](2010 Hackfest)(May,)(CTK-Hackfest-May-2010.md)*
 
@@ -20,3 +22,4 @@ title: Documentation/Interfacing Via OpenGL
  xipActor-SetSceneGraph("XIPSampleScene.iv");
  renderer-AddActor(xipActor);
  renderWindow-Render();
+

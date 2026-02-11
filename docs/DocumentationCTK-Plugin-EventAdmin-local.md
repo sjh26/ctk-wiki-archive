@@ -1,6 +1,8 @@
 ---
 title: Documentation/CTK Plugin EventAdmin local
+render_with_liquid: false
 ---
+
 
 1. Description
 The Event Admin Service Specification (part of the OSGi Compendium specification) defines a general inter-plugin communication mechanism. The communication can be performed synchronously or asynchronously and uses a publish/subscribe pattern.
@@ -25,3 +27,4 @@ The CommonTK Event Admin implementation in *org.commontk.eventadmin* is based on
 
       1. Tutorials
 - [Introduction](Introduction)(http://www.commontk.org/docs/html/PluginFramework_EventAdmin_Page.html)
+

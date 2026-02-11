@@ -1,6 +1,8 @@
 ---
 title: Build Instructions
+render_with_liquid: false
 ---
+
 
 The following instructions are valid as of October 2012 (if something is incorrect, please [report an issue](report an issue)(https://github.com/commontk/CTK/issues/new)).
 
@@ -79,3 +81,4 @@ Optional:
 - [Python](Python)(http://www.python.org/download/): If you plan to use Scripting
 - [DoxyGen](DoxyGen)(http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc): To generate documentation from source code on your machine
 - [GraphViz](GraphViz)(http://www.graphviz.org/Download.php): To generate documentation from source code on your machine
+

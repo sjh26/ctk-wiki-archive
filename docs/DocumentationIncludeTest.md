@@ -1,6 +1,8 @@
 ---
 title: Documentation/IncludeTest
+render_with_liquid: false
 ---
+
 
 1. Include the CTK Readme for testing
 Should display the content of the CTK README file on GitHub:
@@ -13,3 +15,4 @@ Should show C++ code:
 syntaxhighlight lang="CPP" url
 https://github.com/saschazelzer/CTKPluginProject/raw/master/Plugins/pluginA_test/ctkTestPluginAActivator_p.h
 /syntaxhighlight
+

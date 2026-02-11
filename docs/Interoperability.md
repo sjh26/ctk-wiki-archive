@@ -1,6 +1,8 @@
 ---
 title: Interoperability
+render_with_liquid: false
 ---
+
 
 The Common Toolkit also strives to solve interoperability issues between different toolkits at various levels.
 
@@ -18,3 +20,4 @@ See our [ integration levels table]( integration levels table)(CTK_Integration_L
 : Create modular components with a service oriented approach using the CTK Plugin Framework
 - Classic C++
 : Use the libraries provided by CTK by directly linking to it.
+

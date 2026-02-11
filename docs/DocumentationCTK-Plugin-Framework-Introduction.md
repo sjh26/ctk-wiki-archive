@@ -1,6 +1,8 @@
 ---
-title: Documentation/CTK Plugin Framework: Introduction
+title: "Documentation/CTK Plugin Framework: Introduction"
+render_with_liquid: false
 ---
+
 
 The CTK Plugin Framework can shortly be described as a dynamic component system for C++.
 
@@ -91,3 +93,4 @@ is taken from [Benefits of Using OSGi](Benefits of Using OSGi)(http://www.osgi.o
 : The CTK Plugin Framework does not take over your whole application. You can choose to expose the provided functionality to just parts of your application, or even run multiple instances of the framework inside the same process.
 ; Non Intrusive
 : Applications (plugins) in a CTK Plugin environment are left to their own. They can use any facilities without the framework restricting them. There is no special interface required for CTK services, every QObject can act as a service and every class (also non-QObject based) can act as an interface.
+

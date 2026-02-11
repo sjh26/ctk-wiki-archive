@@ -1,5 +1,6 @@
 ---
 title: Main Page
+render_with_liquid: false
 ---
 
 __NOTOC__

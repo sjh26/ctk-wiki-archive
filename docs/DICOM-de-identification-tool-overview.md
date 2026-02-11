@@ -1,6 +1,8 @@
 ---
 title: DICOM de-identification tool overview
+render_with_liquid: false
 ---
+
 
 1. Specific use cases and requirements for de-identification
     1. Requirements
@@ -73,3 +75,4 @@ Some issues, which anonymization tools often have, found on the [Plastimatch hom
 | https://github.com/cbmi/dicom-anon
 |-
 |}
+

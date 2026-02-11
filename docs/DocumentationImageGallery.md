@@ -1,6 +1,8 @@
 ---
 title: Documentation/ImageGallery
+render_with_liquid: false
 ---
+
 
 1. Widgets
 gallery widths=300 px heights=200px perrow=3
@@ -78,3 +80,4 @@ Image:CtkDICOMServerNodeWidget.png|[ctkDICOMServerNodeWidget](ctkDICOMServerNode
 gallery widths=300 px heights=200px perrow=3
 Image:CtkPythonShell.png|A console to interact with pythonbr[ctkPythonShell](ctkPythonShell)(http://www.commontk.org/docs/html/ctkSimplePythonShell_8py.html)br [How to use the CTK Python Console?](How to use the CTK Python Console?)(http://commontk.org/index.php/Documentation/PythonScripting_HowToUseCTKPythonConsole)
 /gallery
+

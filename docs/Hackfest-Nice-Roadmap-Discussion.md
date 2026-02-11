@@ -1,6 +1,8 @@
 ---
 title: Hackfest Nice Roadmap Discussion
+render_with_liquid: false
 ---
+
 
 Topics to discuss:
 
@@ -25,3 +27,4 @@ Topics to discuss:
   
 Topics discussed:
 - Log4Qt
+

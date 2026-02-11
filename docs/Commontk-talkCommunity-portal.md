@@ -1,6 +1,8 @@
 ---
-title: Commontk talk:Community portal
+title: "Commontk talk:Community portal"
+render_with_liquid: false
 ---
+
 
 hello
 I'm trying to install ctk and there is a bug that I would like to solve. Wanting to run CTK-BUILD_EXAMPLE, after that I have configured and generated and doing a make. I get as error:
@@ -26,3 +28,4 @@ make: *** [all](all) Error 2.
 
 (I am very sure to install DCMTK).
 Does someone could help me?thanks
+

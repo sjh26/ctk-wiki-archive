@@ -1,5 +1,6 @@
 ---
 title: XNAT Discussion
+render_with_liquid: false
 ---
 
 1. General ideas

@@ -1,6 +1,8 @@
 ---
 title: The Team
+render_with_liquid: false
 ---
+
 
 1. Founders
 - Hans-Peter Meinzer, German Cancer Research Center, Heidelberg, Germany *(Catalyst of the CTK effort)*
@@ -113,3 +115,4 @@ Topic: AF06-034, Contract #: `FA8650-07-C-6756`
 |-
 |[70px|link=http://qiicr.org](70px|link=http://qiicr.org)(File:QIICR_logo_square.png.md) || [Quantitative Image Informatics for Cancer Research (QIICR), NIH National Cancer Institute, award U24 CA180918](Quantitative Image Informatics for Cancer Research (QIICR), NIH National Cancer Institute, award U24 CA180918)(http://qiicr.org)
 |}
+

@@ -1,6 +1,8 @@
 ---
 title: CTK In QtDesigner
+render_with_liquid: false
 ---
+
 
 1. Instructions to load CTK widgets in Qt Designer
 #Set the **QT_PLUGIN_PATH** environment variable to the *.../CTK-build/CTK-build/bin* path (that should contains a *designer* folder).
@@ -17,3 +19,4 @@ title: CTK In QtDesigner
     1. Links
 *QtCreator plugins: http://qt-project.org/doc/qtcreator-2.6/adding-plugins.html
 *Dependency walker: http://www.dependencywalker.com/
+

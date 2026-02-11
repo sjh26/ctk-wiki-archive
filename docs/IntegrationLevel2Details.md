@@ -1,6 +1,8 @@
 ---
 title: IntegrationLevel2Details
+render_with_liquid: false
 ---
+
 
 [File:CTK-Level2.png](File:CTK-Level2.png)(File:CTK-Level2.png.md)
 
@@ -18,3 +20,4 @@ I have an application, e.g. a PACS/DICOM viewer, that I want to extend with the 
 
     1. Solution
 You use the command line interface support module for parsing parameter descriptions. If your application is using Qt you can optinally use the GUI generator for creating a GUI for the module parameters.
+

@@ -1,6 +1,8 @@
 ---
 title: Documentation/MigrationGuide/ExternalProject
+render_with_liquid: false
 ---
+
 
 __TOC__
 
@@ -169,3 +171,4 @@ After:
   # Sanity checks
   
   [...](...)
+

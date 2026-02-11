@@ -1,6 +1,8 @@
 ---
-title: Tools: Application launcher/Build Instructions
+title: "Tools: Application launcher/Build Instructions"
+render_with_liquid: false
 ---
+
 
 1. Prerequisites: Build Qt statically
   1. Qt 4.8.6
@@ -187,3 +189,4 @@ codeRC/code corresponds to the release candidate number. It is greater or equal 
 - Commit message: codeBegin post-X.Y.Z development/code
 
 --
+

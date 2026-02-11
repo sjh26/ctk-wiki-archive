@@ -1,6 +1,8 @@
 ---
 title: Documentation/PluginFramework DesignDoc
+render_with_liquid: false
 ---
+
 
 pre style="font-size:large;color:red"Attention: This document is unfinished!/pre
 
@@ -108,3 +110,4 @@ The meta data can be later on be accessed by using the "getHeaders()" and "getRe
 
 1. References
 references/
+

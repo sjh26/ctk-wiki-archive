@@ -1,5 +1,6 @@
 ---
 title: Documentation/CTK Plugin Subprojects
+render_with_liquid: false
 ---
 
 The following lists describe the sub-projects inside the CTK Plugin Framework. Sub-projects are either implementations of certain functionality in plug-ins (e.g. OSGi Compendium Service Specifications) or distinct functionality inside the CTK Plugin Framework library.

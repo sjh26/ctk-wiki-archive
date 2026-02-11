@@ -1,10 +1,10 @@
 ---
-title: Documentation/CTK Plugin Framework: Embedding the CTK Plugin Framework
+title: "Documentation/CTK Plugin Framework: Embedding the CTK Plugin Framework"
 ---
 
 This tutorial explains how to embed the CTK Plugin Framework into your existing application/infrastructure.
 
-If you want to know more about how to set-up your CMake build system to integrate CTK, have a look at [Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework](Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework)({{fullurl:Documentation/CTK_Plugin_Framework:).
+If you want to know more about how to set-up your CMake build system to integrate CTK, have a look at [Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework](Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework)(.
 
     1. Example Code
 Below is a minimal code sample demonstrating how to use the CTK Plugin Framework to get a specific service (we will use the [ctkEventAdmin](ctkEventAdmin)(http://www.commontk.org/docs/html/structctkEventAdmin.html) service in this example):
@@ -28,4 +28,4 @@ We will discuss the code step by step:
 : The retrieved service which was registerd by the "org.commontk.eventadmin" plugin during start-up is used by calling a method on it.
 
     1. Discussion
-The [ctkPluginFrameworkLauncher](ctkPluginFrameworkLauncher)(http://www.commontk.org/docs/html/classctkPluginFrameworkLauncher.html) is a useful utility class to start the CTK Plugin Framework. It also allows to get a plugin context (actually the context from the framework itself). However, using this context globally in your application is strongly discouraged. It counteracts the idea of a modularized, service oriented design. You should consider writing your own CTK plugins which will have their own unique context. See [Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin](Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin)({{fullurl:Documentation/CTK_Plugin_Framework:) for more information.
+The [ctkPluginFrameworkLauncher](ctkPluginFrameworkLauncher)(http://www.commontk.org/docs/html/classctkPluginFrameworkLauncher.html) is a useful utility class to start the CTK Plugin Framework. It also allows to get a plugin context (actually the context from the framework itself). However, using this context globally in your application is strongly discouraged. It counteracts the idea of a modularized, service oriented design. You should consider writing your own CTK plugins which will have their own unique context. See [Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin](Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin)( for more information.

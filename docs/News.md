@@ -1,6 +1,8 @@
 ---
 title: News
+render_with_liquid: false
 ---
+
 
 1. 2011
   1. September
@@ -31,3 +33,4 @@ title: News
 1. 2009
   1. October
 - [ Pro Tempore Committee Established]( Pro Tempore Committee Established)(News/CommitteeFormation .md) *October 19, 2009*
+

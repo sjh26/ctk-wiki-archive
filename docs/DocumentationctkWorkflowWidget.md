@@ -1,6 +1,8 @@
 ---
 title: Documentation/ctkWorkflowWidget
+render_with_liquid: false
 ---
+
 
 1. Summary
 - Image analysis and image guided therapy procedures often have fairly complicated workflows
@@ -124,3 +126,4 @@ pre
 *** transition created with branchId: conditional transition based on match, if no match then stay in current step
 ** Multiple transitions:
 *** transitions created with branchIds: conditional transition based on match, if no match then stay in current step
+

@@ -1,6 +1,8 @@
 ---
 title: Documentation/CLI Support in CTK
+render_with_liquid: false
 ---
+
 
 Command Line Interface (CLI) support in CTK will primarly focus on providing an API for working with existing CLI modules. Providing utilities and tools for creating CLI modules from scratch is a desired addition but there are no concrete plans for this yet. See [Documentation/Command_Line_Interface](Documentation/Command_Line_Interface)(Documentation/Command_Line_Interface.md) for more general information about CLI modules.
 
@@ -135,3 +137,4 @@ See also the [ctkCmdLineModuleFrontendQtGui](ctkCmdLineModuleFrontendQtGui)(http
 
       1. General
 - Use a custom *factory* to create your own GUI based on a ctkCmdLineModuleDescription instance.
+

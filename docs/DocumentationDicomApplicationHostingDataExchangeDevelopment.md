@@ -1,6 +1,8 @@
 ---
-title: Documentation/DicomApplicationHosting:DataExchangeDevelopment
+title: "Documentation/DicomApplicationHosting:DataExchangeDevelopment"
+render_with_liquid: false
 ---
+
 
 1. DICOM Specifications uncertainties
 First the implementation showed some dark areas on how to stick to the official definition. These comments have been (or will be very soon) forwarded to Lawrence Tarbox for advice and correction.
@@ -35,3 +37,4 @@ Due to speed of coding and the impatience to see something come out of the speci
     1. QtSoap limitations
 - There is no constructor nor accessor for *long* simple types in QtSoap, only *int*s are covered. For the sake of quick implementation and early testing ObjectLocator.length and ObjectLocator.offset have been casted to *int* at Soap-C++ translation time. If someone knows how to transfer Soap long object with QtSoap, please give us a hand.
 - Ok, not sure about this one: QtSoapArrays are constructed using the *arrayType* attribute from supposedly http://schemas.xmlsoap.org/wsdl/. But it restricts the possible types to a few set, plus *QtSoapType::Other*. This may not be compatible with the *ArrayOf[Type](Type)* way of writing arrays. Extended testing with other implementations should be pursued to get this right.
+

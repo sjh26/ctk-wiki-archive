@@ -1,5 +1,6 @@
 ---
 title: Documentation/Widget testing
+render_with_liquid: false
 ---
 
 1. Overview

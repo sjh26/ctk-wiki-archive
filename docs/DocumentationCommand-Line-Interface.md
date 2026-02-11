@@ -1,6 +1,8 @@
 ---
 title: Documentation/Command Line Interface
+render_with_liquid: false
 ---
+
 
 1. What are CLI modules?
 "CLI (commandline interface) modules" are standalone tools (for instance, a segmentation algorithm) that offer a commandline interface and a **--xml** switch that outputs a *machine-readable kind of --help* (XML description of their supported parameters, values, hints, etc.).  This makes it possible to use such CLIs as some kind of "plugins" for rich GUI applications that offer visualization and **automatically generated GUI panels** for parameter adjustment.  Also, the whole data handling is left to the host application (which may e.g. implement a batch processing pipeline, running the CLI systematically on all relevant data for a particular study), and it becomes possible to use the **same algorithm in various different host applications and contexts**, by agreeing on a common standard for the --xml output.
@@ -36,3 +38,4 @@ Wherever feasible, Slicer developers are encouraged to encapsulate functionality
 - Many [Slicer extensions](Slicer extensions)(http://slicer.kitware.com/midas3/slicerappstore?os=winarch=amd64revision=23777category=search=layout=layout) provide command line modules (unfortunately, ATM, it is not possible yet to query only CLI modules, but there are now [auto-generated lists](auto-generated lists)(http://wiki.slicer.org/slicerWiki/index.php/User:UpdateBot/Issue-2843-Consolidated-Extension-List) that can be [filtered by type=cli](filtered by type=cli)(http://wiki.slicer.org/slicerWiki/index.php/User:UpdateBot/Issue-2843-Consolidated-Extension-List/4.4#cli)).
 - The [NITRC.org project for 3D Slicer](NITRC.org project for 3D Slicer)(http://www.nitrc.org/projects/slicer) lists associations to software packages that interoperate with Slicer, and many of these consist of one or more CLI modules.
 - [niftyreg](niftyreg)(http://sourceforge.net/projects/niftyreg/) contains registration algorithms (from UCL, hosted on SF.net).
+

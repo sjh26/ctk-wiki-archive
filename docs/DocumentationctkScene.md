@@ -1,6 +1,8 @@
 ---
 title: Documentation/ctkScene
+render_with_liquid: false
 ---
+
 
 1. What is a Scene
 1. Generically, a scene is composed of objects that fill a portion of space and time
@@ -175,3 +177,4 @@ We should distinguish between "objects that fill space" and "physical observatio
 - The "physical scene" vs. the "semantic scene"
 
 The current ctkScene description focuses on objects in space, but there is also a lot of non-physical information that we typically embed in the scene - things like anatomical labels and annotations.  In MRML we allow /model hierarchies/ independent of /transform hierarchies/ (e.g. the "skeletal system" as opposed to the "hand").  The former might be used for visualization, while the latter can be used for positioning child objects relative to parent objects.
+

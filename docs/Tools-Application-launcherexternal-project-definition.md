@@ -1,6 +1,8 @@
 ---
-title: Tools: Application launcher/external project definition
+title: "Tools: Application launcher/external project definition"
+render_with_liquid: false
 ---
+
 
 pre
 #
@@ -42,3 +44,4 @@ IF(Slicer_USE_CTKAPPLAUNCHER)
   
 ENDIF()
 /pre
+

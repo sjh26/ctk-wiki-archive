@@ -1,5 +1,5 @@
 ---
-title: Documentation/CTK Plugin Framework: Setting up a project
+title: "Documentation/CTK Plugin Framework: Setting up a project"
 ---
 
 This tutorial will show you how to set-up your own project using the CMake build system and how to integrate it with the CTK Plugin Framework.
@@ -58,8 +58,8 @@ https://github.com/saschazelzer/CTKPluginTutorials/raw/master/Plugins/org.mydoma
 
 The *PROJECT* command in line one sets the name for your plugin sub-project. Additionally, this name is used as the target name for the shared library and should be globally unique. A good convention is to use the reverse domain scheme for the project name and also for the directory containing the plug-in code. Note that the project name must not contain periods.
 
-Calling the macro *ctkMacroBuildPlugin* will do the heavy lifting and set-up all include paths and library dependencies. The definition of plug-in dependencies and the usage of this macro is covered in the [Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin](Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin)({{fullurl:Documentation/CTK_Plugin_Framework:) tutorial.
+Calling the macro *ctkMacroBuildPlugin* will do the heavy lifting and set-up all include paths and library dependencies. The definition of plug-in dependencies and the usage of this macro is covered in the [Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin](Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin)( tutorial.
 
       1. Related Tutorials
-- [Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin](Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin)({{fullurl:Documentation/CTK_Plugin_Framework:)
-- [Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework](Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework)({{fullurl:Documentation/CTK_Plugin_Framework:)
+- [Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin](Creating a new CTK Plugin}}?action=purge Creating a new CTK Plugin)(
+- [Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework](Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework)(

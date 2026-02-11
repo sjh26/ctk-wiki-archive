@@ -1,5 +1,6 @@
 ---
 title: CTK-Hackfest-May-2013
+render_with_liquid: false
 ---
 
 1. Event pictures

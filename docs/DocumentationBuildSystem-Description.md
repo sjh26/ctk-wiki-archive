@@ -1,6 +1,8 @@
 ---
 title: Documentation/BuildSystem Description
+render_with_liquid: false
 ---
+
 
 [to CTK Documentation](to CTK Documentation)(Back)(Documentation.md)
 
@@ -157,3 +159,4 @@ pre
 1. OPT2:ON
 1. )
 /pre
+

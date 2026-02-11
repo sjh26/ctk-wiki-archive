@@ -1,6 +1,8 @@
 ---
 title: Documentation/Third Party Dependencies
+render_with_liquid: false
 ---
+
 
 While the details of the implementation have yet to be finalized, a few of the design principles have been decided by the founding group.  In particular, several core libraries will serve as the foundation.
 
@@ -39,3 +41,4 @@ http://www.cmake.org
 ** [PySide](PySide)(http://www.pyside.org/about/) appears to be the nokia-sponsored replacement for PyQt.
 
 - What third party widget libraries exist for Qt?  What licenses do they use? (Since the open source version of Qt was GPL until recently, most third party libraries are probably GPL also).  For example, [the QDCWS project](the QDCWS project)(http://sourceforge.net/projects/qdcws/) combines DCMTK with Qt but is GPL (and no longer active, apparently - email to the developer bounced).
+

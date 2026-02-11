@@ -1,6 +1,8 @@
 ---
 title: Documentation/Whitepaper
+render_with_liquid: false
 ---
+
 
 *This document describes thoughts as of approximately 2009.  A restatement of our plans is presented in the [Roadmap Document](Roadmap Document)(CTK)(CTK-Roadmap.md)*
 
@@ -140,3 +142,4 @@ Is CMake as-it-is the adequate solution for this? Maybe some moderate extensions
 
 1. Implementation Roadmap
 **To be defined**: modules and packages to be started in the next 6 months.
+

@@ -1,6 +1,8 @@
 ---
 title: News/CommitteeFormation
+render_with_liquid: false
 ---
+
 
 1. Press Release
 - October 19, 2009*
@@ -21,3 +23,4 @@ We expect that the initial phase will require approximately one year. At the end
 
 
 There is a strategic resonance between the scopes of CTK and the Virtual Physiological Human initiative we are promoting in Europe said Marco Viceconti, coordinator of VPHOP project. In quality of responsible for the outreach within the VPH Network of Excellence, I shall ensure that all key achievements of the CTK initiative are disseminated within the VPH community, and properly coordinated with the general effort to form the so-called VPH toolkit, of which CTK could become an important component.
+

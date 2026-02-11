@@ -1,6 +1,8 @@
 ---
 title: CTK-Roadmap
+render_with_liquid: false
 ---
+
 
 This page contains the roadmap for the core CTK effort. It is intended as a guideline for participants to decide whether their intended contributions fit into the CTK core. Beginning in 2012, CTK events are open to all who are willing to comply with the following two conditions:
 
@@ -64,3 +66,4 @@ Possible developments over the 5 years if sufficient support is available:
 Additional details are available on the [commontk.org](commontk.org)(http://commontk.org) site.
 
 Feel free to contact ctk-developers@commontk.org for more information.  Your feedback is welcome.
+

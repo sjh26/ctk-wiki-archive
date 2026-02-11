@@ -1,5 +1,6 @@
 ---
-title: Boston Hackfest:Cmd Line Module Work Items
+title: "Boston Hackfest:Cmd Line Module Work Items"
+render_with_liquid: false
 ---
 
 1. Boston Hackfest Work Items

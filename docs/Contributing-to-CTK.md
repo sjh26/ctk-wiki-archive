@@ -1,6 +1,8 @@
 ---
 title: Contributing to CTK
+render_with_liquid: false
 ---
+
 
 The present document aims at describing how a developer should contribute to CTK. 
 
@@ -222,3 +224,4 @@ bool Foo::doSomething(int count)
 
 1. FAQ
 - What the meaning of *fatal: The current branch master is not tracking anything.* ?
+

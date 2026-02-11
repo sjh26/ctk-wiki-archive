@@ -1,6 +1,8 @@
 ---
 title: CtkDICOM
+render_with_liquid: false
 ---
+
 
 1. ctkDICOM
 Showcase application showing the DICOM retrieve and browse functionality of different CTK components.
@@ -38,3 +40,4 @@ Showcase application showing the DICOM retrieve and browse functionality of diff
 ** store/query/move/get tests
 ** example server (dcmqrscp)
 ** instructions for creating promiscuous server with cget so any user machine can test ctkDICOM networking
+

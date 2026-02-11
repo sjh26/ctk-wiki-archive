@@ -1,6 +1,8 @@
 ---
 title: Documentation/ctkTransferFunctionWidget
+render_with_liquid: false
 ---
+
 
 1. ctkTransferFunctionWidget
 *Support for VTK functions
@@ -36,3 +38,4 @@ Note: The development of the widgets using Qt only has been stopped. We are now 
 ** remove items feature
 ** improve items moves
 ** vertical gradient
+

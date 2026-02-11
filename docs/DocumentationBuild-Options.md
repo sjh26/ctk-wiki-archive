@@ -1,6 +1,8 @@
 ---
 title: Documentation/Build Options
+render_with_liquid: false
 ---
+
 
 1. Semantic grouping
 - DICOM
@@ -72,3 +74,4 @@ set(CTK_APPLICATIONS
   ctkSimplePythonShell:OFF  - CTK_ENABLE_PYTHON_WRAPPING and CTK_ENABLE_EXAMPLES
   )
 /pre
+

@@ -1,6 +1,8 @@
 ---
 title: Documentation/DicomApplicationHostingReference
+render_with_liquid: false
 ---
+
 
 center**Digital Imaging and Communications in Medicine (DICOM)**/center
 
@@ -6555,3 +6557,4 @@ center**DICOM Code Definitions (Coding Scheme Designator DCM Coding Scheme Versi
 | style="border-top:0.0069in solid #000000;border-bottom:0.0153in double #000000;border-left:0.0069in solid #000000;border-right:0.0069in solid #000000;padding-top:0in;padding-bottom:0in;padding-left:0.075in;padding-right:0.075in;"| Orientation of a spatial dimension where increasing values run from the opposite wall to the septum of a chamber.
 
 |}
+

@@ -1,5 +1,5 @@
 ---
-title: Documentation/CTK Plugin Framework: Getting Started
+title: "Documentation/CTK Plugin Framework: Getting Started"
 ---
 
 **This page is not updated anymore. Please go to [Documentation/Plugin_Framework](Documentation/Plugin_Framework)(Documentation/Plugin_Framework.md)**
@@ -9,8 +9,8 @@ The CTK Plugin Framework is directly based on the OSGi specifications, hence any
     1. CTK Plugin Tutorials
 This is a list of existing (or planned) tutorials:
 
-- [Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework](Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework)({{fullurl:Documentation/CTK_Plugin_Framework:)
-- [Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework in an existing application](Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework in an existing application)({{fullurl:Documentation/CTK_Plugin_Framework:)
+- [Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework](Setting up a project}}?action=purge Setting up a project using the CTK Plugin Framework)(
+- [Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework in an existing application](Embedding the CTK Plugin Framework}}?action=purge Embedding the CTK Plugin Framework in an existing application)(
 - Starting and configuring the Framework
 - [ Creating a new CTK Plugin]( Creating a new CTK Plugin)(Documentation/CTK_Plugin_Framework: Creating a new CTK Plugin .md)
 - Listen to service events
@@ -21,11 +21,11 @@ CTK provides default implementations for some OSGi specifications and other func
 The following list points to the sub-projects inside the CTK Plugin Framework. Sub-projects are either implementations of certain functionality in plug-ins (e.g. OSGi Compendium Service Specifications) or distinct functionality inside the CTK Plugin Framework library.
 
       1. OSGi Compendium Services
-- [ MetaType Service]( MetaType Service)(Documentation/CTK_Plugin_MetaType .md) {{Done}} [ [Chapter 105, Service Compendium Version 4.2]( [Chapter 105, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
-- [ Event Admin (local event bus)]( Event Admin (local event bus))(Documentation/CTK_Plugin_EventAdmin_local .md) {{Done}} [ [Chapter 113, Service Compendium Version 4.2]( [Chapter 113, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
-- [ Event Admin (remote event bus)]( Event Admin (remote event bus))(Documentation/CTK_Plugin_EventAdmin_remote .md) {{Doing}} [ [Chapter 113, Service Compendium Version 4.2]( [Chapter 113, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
-- [ Config Admin]( Config Admin)(Documentation/CTK_Plugin_ConfigAdmin .md) {{Done}} [ [Chapter 104, Service Compendium Version 4.2]( [Chapter 104, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
-- [ Log Service]( Log Service)(Documentation/CTK_Plugin_Log .md) {{Doing}} [ [Chapter 101, Service Compendium Version 4.2]( [Chapter 101, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
+- [ MetaType Service]( MetaType Service)(Documentation/CTK_Plugin_MetaType .md) `{{Done}}` [ [Chapter 105, Service Compendium Version 4.2]( [Chapter 105, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
+- [ Event Admin (local event bus)]( Event Admin (local event bus))(Documentation/CTK_Plugin_EventAdmin_local .md) `{{Done}}` [ [Chapter 113, Service Compendium Version 4.2]( [Chapter 113, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
+- [ Event Admin (remote event bus)]( Event Admin (remote event bus))(Documentation/CTK_Plugin_EventAdmin_remote .md) `{{Doing}}` [ [Chapter 113, Service Compendium Version 4.2]( [Chapter 113, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
+- [ Config Admin]( Config Admin)(Documentation/CTK_Plugin_ConfigAdmin .md) `{{Done}}` [ [Chapter 104, Service Compendium Version 4.2]( [Chapter 104, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
+- [ Log Service]( Log Service)(Documentation/CTK_Plugin_Log .md) `{{Doing}}` [ [Chapter 101, Service Compendium Version 4.2]( [Chapter 101, Service Compendium Version 4.2)(http://www.osgi.org/Download/File?url=/download/r4v42/r4.cmpn.pdf) ]
 
     1. API Documentation
 The [API documentation](API documentation)(http://www.commontk.org/docs/html/group__PluginFramework.html) is also a good place to learn more about the CTK Plugin Framework capabilities.

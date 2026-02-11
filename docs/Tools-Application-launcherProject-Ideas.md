@@ -1,5 +1,6 @@
 ---
-title: Tools: Application launcher/Project Ideas
+title: "Tools: Application launcher/Project Ideas"
+render_with_liquid: false
 ---
 
 1. Add terminal emulation

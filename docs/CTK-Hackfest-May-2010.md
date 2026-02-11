@@ -1,6 +1,8 @@
 ---
 title: CTK-Hackfest-May-2010
+render_with_liquid: false
 ---
+
 
 1. Event pictures
 {|
@@ -196,3 +198,4 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
 **Connectivity**
 1. We will provide both wired and wireless connection
+

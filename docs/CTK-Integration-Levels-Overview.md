@@ -1,6 +1,8 @@
 ---
 title: CTK Integration Levels Overview
+render_with_liquid: false
 ---
+
 
 CTK *supports* the *common use* of medical imaging software developments on 
 *different levels* (not all of these levels are available yet).
@@ -52,3 +54,4 @@ This ranges from loosely coupled applications (level 1: basically data exchange)
 - Qt widgets for DICOM, Medical Imaging applications  ([Gallery](Gallery)(Image)(Documentation/ImageGallery.md), [Plans](Plans)(Documentation/WidgetPlans.md))
 - Scripting support ([ctkPythonShell](ctkPythonShell)(http://www.commontk.org/docs/html/classctkPythonShell.html))
 - Application launcher
+

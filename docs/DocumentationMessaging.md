@@ -1,6 +1,8 @@
 ---
 title: Documentation/Messaging
+render_with_liquid: false
 ---
+
 
 This document was written during the Georgetown Hackfest. In the meantime, a message broker solution has been implemented in the CTK Plugin Framework. A [ in-process implementation]( in-process implementation)(Documentation/CTK_Plugin_EventAdmin_local .md) is available and an [ out-of-process implementation]( out-of-process implementation)(Documentation/CTK_Plugin_EventAdmin_remote .md) is available for experimentation.
 
@@ -34,3 +36,4 @@ Different system/application have different data format or are running on differ
 #* It supportsTCP, multicast/PGM, inter-process, and inter-thread transportation
 #*  CMake version of library can be found here http://github.com/PatrickCheng/zeromq2
 #* API can be found here http://api.zeromq.org/zmq.html
+

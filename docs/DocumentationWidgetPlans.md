@@ -1,6 +1,8 @@
 ---
 title: Documentation/WidgetPlans
+render_with_liquid: false
 ---
+
 
 1. Background
 The ctkGUI library will need to provide a set of Qt extension widgets geared for scientific and medical uses.
@@ -168,3 +170,4 @@ Other Examples:
 http://www.kwwidgets.org/Wiki/KWWidgets/Screenshots
 
 http://www.digitalfanatics.org/e8johan/projects/widgets/
+

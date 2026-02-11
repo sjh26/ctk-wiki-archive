@@ -1,6 +1,8 @@
 ---
 title: CTKBarCamp
+render_with_liquid: false
 ---
+
 
 bThis page is obsolete/b
 
@@ -39,3 +41,4 @@ See http://commontk.org/index.php/Getting_Started
 Best,
 YOUR_NAME on behalf of the CTK community
 /pre
+

@@ -1,6 +1,8 @@
 ---
 title: CtkDICOM in Slicer4
+render_with_liquid: false
 ---
+
 
 1. Background
 [3D Slicer version 4](3D Slicer version 4)(http://www.slicer.org/slicerWiki/index.php/Slicer4) has been under development for several years and has grown along side CTK.  The DICOM support in Slicer4 draws heavily from the ctkDICOM effort and can serve as an example of how the CTK code can be used and what steps still need to be taken to make a more general tool.  This page was prepared as an outline for discussion at the [ November 2011 CTK Hackfest]( November 2011 CTK Hackfest)(CTK-Hackfest-Nov-2011 .md).
@@ -120,3 +122,4 @@ See [Slicer4 DICOM documentation page](Slicer4 DICOM documentation page)(http://
 ** *TODO*
 - Helper classes for well formed exports and SCs (correct UIDs)
 ** *TODO*
+

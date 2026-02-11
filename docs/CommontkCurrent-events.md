@@ -1,6 +1,8 @@
 ---
-title: Commontk:Current events
+title: "Commontk:Current events"
+render_with_liquid: false
 ---
+
 
 bigParticipation in CTK meetings is currently limited to steering committee members./big
 
@@ -30,3 +32,4 @@ bigParticipation in CTK meetings is currently limited to steering committee memb
 - [Steering committee meeting at RSNA; Chicago, USA](Steering committee meeting at RSNA; Chicago, USA)(http://wiki.na-mic.org/Wiki/index.php/Events:CTK-Workshop-Chicago-2009) *(2009, November)*
 - [Administrative Meeting; Oxford, United Kingdom](Administrative Meeting; Oxford, United Kingdom)(http://www.na-mic.org/Wiki/index.php/Events:CTK-Workshop-September-2009) *(2009, September)*
 - [Kick-Off Meeting; Heidelberg, Germany](Kick-Off Meeting; Heidelberg, Germany)(http://www.na-mic.org/Wiki/index.php/Events:CTK-Workshop-June-2009) *(2009, June)*
+

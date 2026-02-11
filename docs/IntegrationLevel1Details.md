@@ -1,6 +1,8 @@
 ---
 title: IntegrationLevel1Details
+render_with_liquid: false
 ---
+
 
 1. Scenarios for integration on the DICOM Application Hosting level
 [File:CTK-Level1.png](File:CTK-Level1.png)(File:CTK-Level1.png.md)
@@ -23,3 +25,4 @@ I use the CTK Dicom Application Hosting Module in my application to add intraope
 
 [to overview ...](to overview ...)(Back)(CTKUsageScenarios.md)
 [File:Example.jpg](File:Example.jpg)(File:Example.jpg.md)
+

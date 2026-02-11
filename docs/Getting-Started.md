@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+render_with_liquid: false
 ---
 
 1. New community member checklist

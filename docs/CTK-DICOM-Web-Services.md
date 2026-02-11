@@ -1,6 +1,8 @@
 ---
 title: CTK DICOM Web Services
+render_with_liquid: false
 ---
+
 
 - Investigate web service approach (WG27)
 ** Pros: Easily go accross firewall, leverage caching from commercial app
@@ -25,3 +27,4 @@ dcm4che: [Version 4.1.0.Alpha3 (and above) ](Version 4.1.0.Alpha3 (and above) )(
 [Server Options RESTful Services; supplement 170 (pc)](Server Options RESTful Services; supplement 170 (pc))(ftp://medical.nema.org/medical/dicom/supps/PC/sup170_pc.pdf)
 
 Not directly related is [Supplement 157, "Multi-Frame Converted Legacy Images"](Supplement 157, "Multi-Frame Converted Legacy Images")(ftp://medical.nema.org/medical/dicom/final/sup157_ft2.pdf) , which is a more convenient way of handling large stacks of planar images (i.e. convert multiple single-slice images into a single multi-dimensional image).
+
