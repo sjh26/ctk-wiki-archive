@@ -4,7 +4,7 @@ markdown: kramdown
 repository: sjh26/ctk-wiki-archive
 baseurl: ""
 url: "https://sjh26.github.io/ctk-wiki-archive/"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-primer
 
 # Exclude files from processing
 exclude:
