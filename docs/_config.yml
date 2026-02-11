@@ -1,9 +1,9 @@
 title: CommonTK Wiki Archive
 description: Archived documentation from the CommonTK project
 markdown: kramdown
-repository: yourusername/ctk-pages
+repository: sjh26/ctk-wiki-archive
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://sjh26.github.io/ctk-wiki-archive/"
 theme: jekyll-theme-cayman
 
 # Exclude files from processing
