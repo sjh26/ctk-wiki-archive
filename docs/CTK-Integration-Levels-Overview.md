@@ -1,8 +1,6 @@
 ---
 title: CTK Integration Levels Overview
-render_with_liquid: false
 ---
-
 
 CTK *supports* the *common use* of medical imaging software developments on 
 *different levels* (not all of these levels are available yet).
@@ -14,7 +12,7 @@ This ranges from loosely coupled applications (level 1: basically data exchange)
 ! CTK benefit for App/Module
 |- style="background-color:#EEEEEE;"
 | Level 1: DICOM Part 19
-([Scenarios](Scenarios)(IntegrationLevel1Details.md), [Details](Details)(Documentation/DicomApplicationHosting.md))
+([Scenarios](IntegrationLevel1Details.html), [Details](Documentation/DicomApplicationHosting.html))
 | 
 - Host communication
 - Data preparation for DataExchange interface
@@ -24,7 +22,7 @@ This ranges from loosely coupled applications (level 1: basically data exchange)
 - Default implementation of application business logic
 |-
 | Level 2: Command line interface 
-([Scenarios](Scenarios)(IntegrationLevel2Details.md), [Details](Details)(Documentation/Command Line Interface.md))
+([Scenarios](IntegrationLevel2Details.html), [Details](Documentation/Command-Line-Interface.html))
 | 
 - parsing of parameter descriptions
 - GUI generation (optional)
@@ -32,26 +30,25 @@ This ranges from loosely coupled applications (level 1: basically data exchange)
 - publishing of parameter descriptions
 |- style="background-color:#EEEEEE;"
 | Level 3: CTK event bus 
-([Scenarios](Scenarios)(IntegrationLevel3Details.md), [Details](Details)(Documentation/Messaging.md))
+([Scenarios](IntegrationLevel3Details.html), [Details](Documentation/Messaging.html))
 
 |colspan="2"|
 - publish and subscribe for arbitrary communication between modules and applications
 - possibly out of process
 |-
 | Level 4: CTK services
-([Scenarios](Scenarios)(IntegrationLevel4Details.md), [Details](Details)(Documentation/CTK Plugin Framework: Introduction.md))
+([Scenarios](IntegrationLevel4Details.html), [Details](Documentation/CTK-Plugin-Framework-Introduction.html))
 |colspan="2"|
 - Component-based software development
 - Service discovery
 - Base services: event bus, configuration admin, logging, meta type management
 |- style="background-color:#EEEEEE;"
 | Level 5: Classic C++
-([Scenarios](Scenarios)(Level5Details.md))
+([Scenarios](Level5Details.html))
 |colspan="2"|
-- DICOM Q/R ([ctkDICOMAppWidget](ctkDICOMAppWidget)(http://www.commontk.org/docs/html/classctkDICOMAppWidget.html), [ctkDICOMServerNodeWidget](ctkDICOMServerNodeWidget)(http://www.commontk.org/docs/html/classctkDICOMServerNodeWidget.html))
-- Local DICOM file management (indexer, database ) ([ctkDICOMModel](ctkDICOMModel)(http://www.commontk.org/docs/html/classctkDICOMModel.html))
+- DICOM Q/R ([ctkDICOMAppWidget](http://www.commontk.org/docs/html/classctkDICOMAppWidget.html), [ctkDICOMServerNodeWidget](http://www.commontk.org/docs/html/classctkDICOMServerNodeWidget.html))
+- Local DICOM file management (indexer, database ) ([ctkDICOMModel](http://www.commontk.org/docs/html/classctkDICOMModel.html))
 - DICOM testing infrastructure
-- Qt widgets for DICOM, Medical Imaging applications  ([Gallery](Gallery)(Image)(Documentation/ImageGallery.md), [Plans](Plans)(Documentation/WidgetPlans.md))
-- Scripting support ([ctkPythonShell](ctkPythonShell)(http://www.commontk.org/docs/html/classctkPythonShell.html))
+- Qt widgets for DICOM, Medical Imaging applications  ([Image Gallery](Documentation/ImageGallery.html), [Plans](Documentation/WidgetPlans.html))
+- Scripting support ([ctkPythonShell](http://www.commontk.org/docs/html/classctkPythonShell.html))
 - Application launcher
-

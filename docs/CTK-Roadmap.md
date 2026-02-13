@@ -1,8 +1,6 @@
 ---
 title: CTK-Roadmap
-render_with_liquid: false
 ---
-
 
 This page contains the roadmap for the core CTK effort. It is intended as a guideline for participants to decide whether their intended contributions fit into the CTK core. Beginning in 2012, CTK events are open to all who are willing to comply with the following two conditions:
 
@@ -11,15 +9,15 @@ This page contains the roadmap for the core CTK effort. It is intended as a guid
 
 
   1. Background
-*This roadmap was developed during the [Antipolis 2011 Hackfest](Antipolis 2011 Hackfest)(Sophia)(CTK-Hackfest-Nov-2011.md)
-*The roadmap is based on an earlier version which can be found [here](here)(Documentation/Whitepaper.md) and ideas for an overview which can be found in the [ CTK Integration Levels Table]( CTK Integration Levels Table)(CTK_Integration_Levels_Overview.md).
+*This roadmap was developed during the [Sophia Antipolis 2011 Hackfest](CTK-Hackfest-Nov-2011.html)
+*The roadmap is based on an earlier version which can be found [here](Documentation/Whitepaper.html) and ideas for an overview which can be found in the [CTK Integration Levels Table](CTK-Integration-Levels-Overview.html).
 
   1. Overview
 The goal of CTK is to support biomedical image computing.  Other application areas can benefit from CTK, but the needs of other domains will not guide the selection of CTK priorities (efforts to sway development in support of more generalized goals will be resisted).
 
 The tools used in CTK are Qt, DCMTK, CMake, C++, and Python.  C++, Qt, and CMake are essential in all CTK uses, and DCMTK is essential for all DICOM uses.  Python wrapping can optionally be applied on top of CTK code.  Other relevant technologies will be considered but are unlikely to be included.  Some support for ITK, VTK, OpenInventor, and related toolkits is optionally supported in terms of adapters and interfaces but CTK is not a place to house, for example, a set of algorithms implemented in ITK.
 
-CTK code is licensed under [Apache 2.0](Apache 2.0)(http://www.apache.org/licenses/LICENSE-2.0.html). This means that users of CTK are allowed use the code for academic, commercial, or other purposes without paying license fees or being restricted in their ability to redistribute their code or keep it private.  Absolutely no GPL, academic-use-only, non-free, or patented code belongs in CTK, but CTK can be used in projects that also include this kind of code.
+CTK code is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). This means that users of CTK are allowed use the code for academic, commercial, or other purposes without paying license fees or being restricted in their ability to redistribute their code or keep it private.  Absolutely no GPL, academic-use-only, non-free, or patented code belongs in CTK, but CTK can be used in projects that also include this kind of code.
  
 CTK works on topics that are not covered by existing toolkits that support the mutual interest and needs of the CTK community.  The scope of current CTK efforts includes:
 - Biomedical, Medical and visualization customizations of Qt in the form of widgets, testing, and support code
@@ -63,7 +61,6 @@ Possible developments over the 5 years if sufficient support is available:
 - Support for scene data interchange beyond dicom images (surface models, colors, transformations, annotations) 
 
   1. Getting in Touch
-Additional details are available on the [commontk.org](commontk.org)(http://commontk.org) site.
+Additional details are available on the [commontk.org](http://commontk.org) site.
 
 Feel free to contact ctk-developers@commontk.org for more information.  Your feedback is welcome.
-

@@ -1,8 +1,0 @@
----
-title: Documentation/CTK Plugin ConfigAdmin
-render_with_liquid: false
----
-
-
-The OSGi Componendium Configuration Admin Service specifies a service, which allows for easy management of configuration data for configurable components. Basically configuration is a list of name-value pairs. Configuration is managed by management applications by asking the Configuration Admin Service for such configuration. After updating the configuration, it is sent back to the Configuration Admin Service. The Configuration Admin Service is like a central hub, which cares for persisting this configuration and also for distributing the configuration to interested parties. One class of such parties are the components to be configured. These are registered as [ctkManagedService](ctkManagedService)(http://www.commontk.org/docs/html/structctkManagedService.html) services. There is also a notion of [ctkManagedServiceFactory](ctkManagedServiceFactory)(http://www.commontk.org/docs/html/structctkManagedServiceFactory.html), which allows for multiple configurations of the same kind to be applied.
-

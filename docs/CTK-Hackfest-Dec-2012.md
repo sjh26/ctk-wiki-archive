@@ -1,6 +1,5 @@
 ---
 title: CTK-Hackfest-Dec-2012
-render_with_liquid: false
 ---
 
 1. Event pictures
@@ -18,13 +17,13 @@ image:DSC02726.JPG|big... and hacking/big
   1. Introduction
 **Date:** December 10-14, 2012
 
-**Location:**  [| Hotel i Portici](| Hotel i Portici)(http://www.iporticihotel.com/en) in Via Indipendenza , Bologna, Italy, Sala Montagnola (Room) 
+**Location:**  [| Hotel i Portici](http://www.iporticihotel.com/en) in Via Indipendenza , Bologna, Italy, Sala Montagnola (Room) 
 
-**Goal:** A follow on to the [successful previous hackfests!](successful previous hackfests!)(wildly)(Commontk:Current_events#Past_events.md)
+**Goal:** A follow on to the [wildly successful previous hackfests!](CommontkCurrent-events.html#Past_events)
 
-**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ ctk roadmap]( ctk roadmap)(CTK-Roadmap .md).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
+**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ctk roadmap](CTK-Roadmap.html).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
 
-**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Site Hosts:** Alessandro Chiarini, Daniele Giunchi
 
@@ -109,30 +108,30 @@ Please fill in your intentions in terms of common accommodation.
 |}
 --
 
-{{Note}}There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
+`{{Note}}`There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 Phone conferences have been scheduled in the weeks leading to the event:
 - To be announced
 
   1. Topics and Projects
 !--==== Roadmap development ====
-*As needed, refine the [for the CTK core](for the CTK core)(roadmap)(CTK-Roadmap.md).--
+*As needed, refine the [roadmap for the CTK core](CTK-Roadmap.html).--
 
       1. DICOM Application Hosting
-- Refine, extend, [ test]( test)(DICOM_Application_Hosting_Testing .md), and integrate with applications
-- See also [ (some still open) tasks]( (some still open) tasks)(CTK-Hackfest-Nov-2011#DICOM_Application_Hosting .md) and [ progress]( progress)(Hackfest_Nice_AppHosting_Progress .md) from the last hackfest
+- Refine, extend, [test](DICOM-Application-Hosting-Testing.html), and integrate with applications
+- See also [(some still open) tasks](CTK-Hackfest-Nov-2011.html#DICOM_Application_Hosting) and [progress](Hackfest-Nice-AppHosting-Progress.html) from the last hackfest
 - Goal: connect some real code via command line interface
 
       1. DICOM Database and Networking
-- Dig into ongoing developments.  See [CtkDICOM](CtkDICOM)(CtkDICOM.md) for discussion.
+- Dig into ongoing developments.  See [CtkDICOM](CtkDICOM.html) for discussion.
 - See CTK DICOM support is used in Slicer 4.2
-** [End-user documentation](End-user documentation)(http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.2/Modules/DICOM)
-** [Slicer4 DICOM Bugs and Feature Requests](Slicer4 DICOM Bugs and Feature Requests)(http://na-mic.org/Bug/search.php?project_id=3category=Module+DICOMsticky_issues=onsortby=last_updateddir=DESChide_status_id=90)
+** [End-user documentation](http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.2/Modules/DICOM)
+** [Slicer4 DICOM Bugs and Feature Requests](http://na-mic.org/Bug/search.php?project_id=3category=Module+DICOMsticky_issues=onsortby=last_updateddir=DESChide_status_id=90)
 ** SlicerRT Issues:
 *** https://www.assembla.com/spaces/slicerrt/tickets/25 - display of ^ (carat character) in ctkDICOMModel
 *** https://www.assembla.com/spaces/slicerrt/tickets/153 - extension import failure (slicer issue)
@@ -143,22 +142,22 @@ Quality Assurance Toolkit - how to integrate in CTK
 
       1. Widgets
 - Discuss and refine as needed.
-- [SlicerRt example dicom interfaces discussion](SlicerRt example dicom interfaces discussion)(https://www.assembla.com/spaces/slicerrt/wiki/20120125_Slicer_DICOM_browser_meeting)
+- [SlicerRt example dicom interfaces discussion](https://www.assembla.com/spaces/slicerrt/wiki/20120125_Slicer_DICOM_browser_meeting)
 
       1. Tests Framework
 Try QtTesting with CTK applications
 
       1. Build Systems  Software process
 !--* delUpdate PythonQt dependency so that CTK can build against Qt 4.8/del
-** delSee [this experiment](this experiment)(https://github.com/pieper/PythonQt/tree/svn-mirror) to make a ctk-compatible version of the updated PythonQt - it works, but is not yet fully patched./del
-** del[Some operator overloading issues in DAH](Some operator overloading issues in DAH)(http://my.cdash.org/viewBuildError.php?buildid=362919)/del
-** Updated PythonQt: [#1](#1)(https://github.com/commontk/PythonQt/pull/1), [#2](#2)(https://github.com/commontk/PythonQt/pull/2) and [#3](#3)(https://github.com/commontk/PythonQt/pull/3) {{done}}
-** Updated CTK: [#189](#189)(https://github.com/commontk/CTK/issues/189), [#157](#157)(https://github.com/commontk/CTK/issues/157) {{done}}
-** Updated Slicer [r20601](r20601)(http://viewvc.slicer.org/viewvc.cgi/Slicer4?view=revisionrevision=20601) {{done}}
-** Added [documentation](documentation)(https://github.com/commontk/PythonQt#readme) on PythonQt.  {{done}}--
+** delSee [this experiment](https://github.com/pieper/PythonQt/tree/svn-mirror) to make a ctk-compatible version of the updated PythonQt - it works, but is not yet fully patched./del
+** del[Some operator overloading issues in DAH](http://my.cdash.org/viewBuildError.php?buildid=362919)/del
+** Updated PythonQt: [#1](https://github.com/commontk/PythonQt/pull/1), [#2](https://github.com/commontk/PythonQt/pull/2) and [#3](https://github.com/commontk/PythonQt/pull/3) `{{done}}`
+** Updated CTK: [#189](https://github.com/commontk/CTK/issues/189), [#157](https://github.com/commontk/CTK/issues/157) `{{done}}`
+** Updated Slicer [r20601](http://viewvc.slicer.org/viewvc.cgi/Slicer4?view=revisionrevision=20601) `{{done}}`
+** Added [documentation](https://github.com/commontk/PythonQt#readme) on PythonQt.  `{{done}}`--
 
 
-- Update to [latest DCMTK](latest DCMTK)(http://git.dcmtk.org/web?p=dcmtk.git;a=summary)
+- Update to [latest DCMTK](http://git.dcmtk.org/web?p=dcmtk.git;a=summary)
 ** includes dcmrt
 ** need to pick a commit to standardize on
 ** investigate shared/static library building.  (Static instances of classes getting destructed in wrong order)
@@ -172,22 +171,22 @@ Try QtTesting with CTK applications
 - Evaluate Qt5 (Sascha)
 
 - delSetup developer package/del
-** See [#10](#10)(https://github.com/commontk/CTK/issues/10) and [#65](#65)(https://github.com/commontk/CTK/issues/65)
-** Work in progress - See topic [65-packaging-support](65-packaging-support)(https://github.com/jcfr/CTK/compare/65-packaging-support)
+** See [#10](https://github.com/commontk/CTK/issues/10) and [#65](https://github.com/commontk/CTK/issues/65)
+** Work in progress - See topic [65-packaging-support](https://github.com/jcfr/CTK/compare/65-packaging-support)
 
 
 !-- * delTalk with Dominique (Debian packager) to understand what is missing/del See https://github.com/commontk/CTK/pull/158
-** delBuild from upstream PythonQt (to be done this week)/del {{done}} Few patches still need to be contributed upstream. See [documentation](documentation)(https://github.com/commontk/PythonQt#readme)--
+** delBuild from upstream PythonQt (to be done this week)/del `{{done}}` Few patches still need to be contributed upstream. See [documentation](https://github.com/commontk/PythonQt#readme)--
 ** Release a version of CTK (Work on policy this week and maybe release this week).
 
 !--* delGeneralize documentation of CMake macro so that it can be-used./del--
-** Work in progress - See [cmake-doxygen-filter-reuse](cmake-doxygen-filter-reuse)(https://github.com/jcfr/CTK/compare/master...cmake-doxygen-filter-reuse)
+** Work in progress - See [cmake-doxygen-filter-reuse](https://github.com/jcfr/CTK/compare/master...cmake-doxygen-filter-reuse)
 
       1. Command Line Modules
 - Extract CLI interface 
 ** Unify VPH and Slicer refactoring
 - Qt SEM XML widget
-- Follow on interoperability tests done in [CLI_In_Context](CLI_In_Context)(CLI_In_Context.md)
+- Follow on interoperability tests done in [CLI_In_Context](CLI-In-Context.html)
 - Refine CLI XML standard
 ** Text format for description/help/acknowledgement/resources: plain text ? html ? structured text ? github markup ?
 ** Multiple categories per module ?
@@ -204,15 +203,15 @@ Review of goals and ideas--
 10:45 - 12:00 Round table: everyone presents 10-15 minutes how CTK is used in their project. And what's new in CTK (what has been added since previous hackfest)
 
 : CTK in use:
-:* MSVTK: [ECG](ECG)(http://www.msvtk.org/content/electro-physiological-dataset-application), HAI, Buttons (DG/AL, JF) (10m)
+:* MSVTK: [ECG](http://www.msvtk.org/content/electro-physiological-dataset-application), HAI, Buttons (DG/AL, JF) (10m)
 :** Give your feedback: http://www.msvtk.org/content/evaluation
-:* [DICOM in Slicer](DICOM in Slicer)(http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DICOM) (SP) (5m)
-:* [CLI in Gimias, MITK, NiftyView, Slicer](CLI in Gimias, MITK, NiftyView, Slicer)(http://www.commontk.org/index.php/Documentation/CLI_In_Context) (SZ, YM, ME) (10m)
+:* [DICOM in Slicer](http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DICOM) (SP) (5m)
+:* [CLI in Gimias, MITK, NiftyView, Slicer](http://www.commontk.org/index.php/Documentation/CLI_In_Context) (SZ, YM, ME) (10m)
 :* CTK in MITK (MN) (5m)
 : What's new since last hackfest?
-:* [CLI](CLI)(http://www.commontk.org/index.php/Documentation/Command_Line_Interface) in CTK (SZ, YM) (15m)
+:* [CLI](http://www.commontk.org/index.php/Documentation/Command_Line_Interface) in CTK (SZ, YM) (15m)
 :* DICOM Tag caching (SP) (5m)
-:* [Widgets improvements](Widgets improvements)(http://www.commontk.org/index.php/Documentation/ImageGallery) in CTK(JF, JCFR) (5m)
+:* [Widgets improvements](http://www.commontk.org/index.php/Documentation/ImageGallery) in CTK(JF, JCFR) (5m)
 :** New: ctkExpandableWidget/ctkSizeGrip, ctkPathListWidget
 :** Tweaks: ctkCoordinatesWidget (normalized), ctkPathLineEdit (sizeHint), ctkPanelSettings (user/revision settings),  
 
@@ -319,8 +318,8 @@ Wrap up discussion and presentations:
 ** Working with Jc on REST API implementation generalized across MIDAS and XNAT
 ** With Sascha and Jc: updates to the build system to support plugins - new superrepository that has git submodules for optional plugins
 - Sascha
-** Superrepository and build system (see issue [#266](#266)(https://github.com/commontk/CTK/issues/266) and its corresponding [branch](branch)(https://github.com/commontk/CTK/tree/266-checkout-repositories-at-build-time))
-** Looked into Qt5 (see issue [#277](#277)(https://github.com/commontk/CTK/issues/277) and the [qt5 branch](qt5 branch)(https://github.com/commontk/CTK/tree/qt5))
+** Superrepository and build system (see issue [#266](https://github.com/commontk/CTK/issues/266) and its corresponding [branch](https://github.com/commontk/CTK/tree/266-checkout-repositories-at-build-time))
+** Looked into Qt5 (see issue [#277](https://github.com/commontk/CTK/issues/277) and the [qt5 branch](https://github.com/commontk/CTK/tree/qt5))
 *** some ifdefs required for deprecated functions
 - Andreas
 ** Putting Qt Testing into MITK
@@ -375,7 +374,7 @@ Wrap up discussion and presentations:
 ** Command Line Module Widget - stand alone widget configured with CLI XML
 *** Test version with subclassed module reference: https://github.com/pieper/CTK/tree/cli-widget-reference-subclass
 *** improved version using QtGui subclass: https://github.com/pieper/CTK/tree/cli-widget
-*** [working test code for the module](working test code for the module)(https://github.com/pieper/CTK/blob/8391b2f54e18e68e6672a4d3a54da38bc9c77b79/Libs/CommandLineModules/Widgets/Testing/Cpp/ctkCmdLineModuleWidgetTest1.cpp#L86)
+*** [working test code for the module](https://github.com/pieper/CTK/blob/8391b2f54e18e68e6672a4d3a54da38bc9c77b79/Libs/CommandLineModules/Widgets/Testing/Cpp/ctkCmdLineModuleWidgetTest1.cpp#L86)
 - Luca
 ** Work on refactoring GenerateCLP into a more dynamic structure to support incremental CLI 
 ** https://github.com/lantiga/CLIInterface
@@ -392,7 +391,7 @@ hack, hack, hack...
 
   1. Gallery of Results
 gallery widths=300 px heights=200px perrow=3
-Image:Cli-widget-prototype-2012-12-14.png|[Example widget generated from XML description.](Example widget generated from XML description.)(https://github.com/pieper/CTK/blob/8391b2f54e18e68e6672a4d3a54da38bc9c77b79/Libs/CommandLineModules/Widgets/Testing/Cpp/ctkCmdLineModuleWidgetTest1.cpp#L86)
+Image:Cli-widget-prototype-2012-12-14.png|[Example widget generated from XML description.](https://github.com/pieper/CTK/blob/8391b2f54e18e68e6672a4d3a54da38bc9c77b79/Libs/CommandLineModules/Widgets/Testing/Cpp/ctkCmdLineModuleWidgetTest1.cpp#L86)
 Image:VtkCompositeControlPointsStack.png|Layers in VTK charts for transfer function edition.
 Image:MedInria-cli.png|Command-line module integration in medInria
 Image:MITKasHostedApp-and-asHost-withCLIasHostedApp.jpg|MITK running as DICOM Application Hosting hosted application (hosted by ctkDICOMHost) as well as hosting system with CTK-CLI as hosted application
@@ -403,7 +402,7 @@ Image:MITKasHostedApp-and-asHost-withCLIasHostedApp.jpg|MITK running as DICOM Ap
 If you have any troubles during your visit, call Alessandro: +39 342 1401554 or Daniele: +39 348 7260365
 
 **Airport** 
-- [Bologna G.Marconi (BLQ)](Bologna G.Marconi (BLQ))(http://www.bologna-airport.it/uk/?LN=UK)
+- [Bologna G.Marconi (BLQ)](http://www.bologna-airport.it/uk/?LN=UK)
 
 **Transportation on Site**
 
@@ -430,7 +429,7 @@ I Portici Hotel [http://www.iporticihotel.com/en/i-portici-hotel-bologna](http:/
 
 
 **Meeting Location** 
-!--* [BWH Surgical Planning Laboratory](BWH Surgical Planning Laboratory)(http://www.spl.harvard.edu/pages/Directions#Getting_to_1249_Boylston_Street.) [1249 Boylston Street](1249 Boylston Street)(http://maps.google.com/maps?q=1249+boylston+street+boston+ma+02215hl=enhnear=1249+Boylston+St,+Boston,+Massachusetts+02215gl=ust=mz=16).--
+!--* [BWH Surgical Planning Laboratory](http://www.spl.harvard.edu/pages/Directions#Getting_to_1249_Boylston_Street.) [1249 Boylston Street](http://maps.google.com/maps?q=1249+boylston+street+boston+ma+02215hl=enhnear=1249+Boylston+St,+Boston,+Massachusetts+02215gl=ust=mz=16).--
 TBA We are finding a meeting venue that could be in the city centre or in the central station area. 
 
 **Catering**

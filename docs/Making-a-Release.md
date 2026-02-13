@@ -2,8 +2,8 @@
 title: Making a Release
 ---
 
-``{{banner`
-| text = [For the latest version of this page, visit the CTK GitHub wiki.](For the latest version of this page, visit the CTK GitHub wiki.}}`(https://github.com/commontk/CTK/wiki/Release-Process)}}
+`{{banner`
+| text = [For the latest version of this page, visit the CTK GitHub wiki.](https://github.com/commontk/CTK/wiki/Release-Process)}}
 
 A core developer should use the following steps to create a release ttYYYY-MM-DD/tt of CTK
 
@@ -34,7 +34,7 @@ git tag -l | sort -V
   li
     pTag the release/p
     pregit tag --sign -m "CTK ${release}" ${release} master/pre
-    psmallWe recommend using a [GPG signing key](GPG signing key)(https://help.github.com/articles/generating-a-new-gpg-key/) to sign the tag./small/p
+    psmallWe recommend using a [GPG signing key](https://help.github.com/articles/generating-a-new-gpg-key/) to sign the tag./small/p
   /li
 
   li

@@ -1,8 +1,6 @@
 ---
 title: "Commontk talk:Community portal"
-render_with_liquid: false
 ---
-
 
 hello
 I'm trying to install ctk and there is a bug that I would like to solve. Wanting to run CTK-BUILD_EXAMPLE, after that I have configured and generated and doing a make. I get as error:
@@ -22,10 +20,9 @@ Call Stack (most recent call first):
 
 
 - Configuring incomplete, errors occurred!
-make [2](2): *** [CTK-Configure-prefix/src/CTK-Configure-stamp/CTK-Configure-configure](CTK-Configure-prefix/src/CTK-Configure-stamp/CTK-Configure-configure) Error 1
-make [1](1): *** [/ CTK-Configure.dir / all](/ CTK-Configure.dir / all)(CMakeFiles) Error 2
-make: *** [all](all) Error 2.
+make [2]: *** [CTK-Configure-prefix/src/CTK-Configure-stamp/CTK-Configure-configure] Error 1
+make [1]: *** [CMakeFiles / CTK-Configure.dir / all] Error 2
+make: *** [all] Error 2.
 
 (I am very sure to install DCMTK).
 Does someone could help me?thanks
-

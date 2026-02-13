@@ -1,6 +1,5 @@
 ---
 title: CTK-Hackfest-May-2013
-render_with_liquid: false
 ---
 
 1. Event pictures
@@ -21,19 +20,19 @@ File:Hackfest2013_bbq2.jpg
 File:Hackfest2013_bbq3.jpg
 File:Hackfest2013_PerkLabAndCtkGroup1.jpg|Group picture with the PerkLab
 File:Hackfest2013_PerkLabAndCtkGroup2.jpg
-File:Poutine.jpg|[Poutine for lunch!](Poutine for lunch!)(http://en.wikipedia.org/wiki/Poutine)
+File:Poutine.jpg|[Poutine for lunch!](http://en.wikipedia.org/wiki/Poutine)
 /gallery
 
   1. Introduction
 **Date:** May 20-24, 2013
 
-**Location:**  [Kingston, Ontario, Canada](Kingston, Ontario, Canada)(http://en.wikipedia.org/wiki/Kingston,_Ontario).  In a classroom at Queens University.
+**Location:**  [Kingston, Ontario, Canada](http://en.wikipedia.org/wiki/Kingston,_Ontario).  In a classroom at Queens University.
 
-**Goal:** A follow on to the [successful previous hackfests!](successful previous hackfests!)(wildly)(Commontk:Current_events#Past_events.md)
+**Goal:** A follow on to the [wildly successful previous hackfests!](CommontkCurrent-events.html#Past_events)
 
-**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ ctk roadmap]( ctk roadmap)(CTK-Roadmap .md).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
+**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ctk roadmap](CTK-Roadmap.html).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
 
-**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Site Hosts:** Gabor Fichtinger, Csaba Pinter, Andras Lasso
 
@@ -111,12 +110,12 @@ Please fill in your intentions in terms of common accommodation.
 |}
 --
 
-{{Note}}There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
+`{{Note}}`There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 Phone conferences have been scheduled in the weeks leading to the event:
 - To be announced
@@ -142,7 +141,7 @@ Phone conferences have been scheduled in the weeks leading to the event:
       1. DICOM Database and Networking
 - Review implementation issues when using CTK DICOM
 ** DICOM issues in github [https://github.com/commontk/CTK/issues?labels=DICOMstate=open](https://github.com/commontk/CTK/issues?labels=DICOMstate=open)
-** del Incorrect import when DICOMDIR is present [http://na-mic.org/Bug/view.php?id=3111](http://na-mic.org/Bug/view.php?id=3111).  Should we skip DICOMDIR when it is not picked explicitly? /del {{done}}
+** del Incorrect import when DICOMDIR is present [http://na-mic.org/Bug/view.php?id=3111](http://na-mic.org/Bug/view.php?id=3111).  Should we skip DICOMDIR when it is not picked explicitly? /del `{{done}}`
 ** Incorrect/slow database behavior when multiple processes access it simultaneously [http://na-mic.org/Bug/view.php?id=3106](http://na-mic.org/Bug/view.php?id=3106) (interference between ctkDICOMIndexer and ctkDICOMModel)
 - Discuss DICOM-RT for CTK
 - Discuss DICOM Export options
@@ -173,10 +172,10 @@ Phone conferences have been scheduled in the weeks leading to the event:
 
       1. Widgets
 - Spin box development [http://public.kitware.com/pipermail/ctk-developers/2013-May/001125.html](http://public.kitware.com/pipermail/ctk-developers/2013-May/001125.html)
-- delctkDICOMModel and display of real-world patient data (RT special cases for example)/del - {{done}}
-- Compare [plans](plans)(widget)(Documentation/WidgetPlans.md) with [set](set)(current)(Documentation/ImageGallery .md).
+- delctkDICOMModel and display of real-world patient data (RT special cases for example)/del - `{{done}}`
+- Compare [widget plans](Documentation/WidgetPlans.html) with [current set](Documentation/ImageGallery.html).
 - Qt5 Compatibility?
-** delWorking on VTK / Qt5 compatibility/del - {{done}} VTK6 topic : http://review.source.kitware.com/#/t/2803
+** delWorking on VTK / Qt5 compatibility/del - `{{done}}` VTK6 topic : http://review.source.kitware.com/#/t/2803
 
 - Results
 ** Miklos and Julien developed plan for resolving spin box features: there will be a ctkDoubleSpinBox with new precision features migrated from current ctkSpinBox and Miklos's changes to expose more of the QSpinBox features.
@@ -201,11 +200,11 @@ Phone conferences have been scheduled in the weeks leading to the event:
 ** CREATIS group attended hangout and plans to contribute to QtTesting
 
       1. Build Systems  Software process
-- delDCMTK build issues [http://public.kitware.com/pipermail/ctk-developers/2013-May/001122.html](http://public.kitware.com/pipermail/ctk-developers/2013-May/001122.html) [http://public.kitware.com/pipermail/ctk-developers/2013-May/001120.html](http://public.kitware.com/pipermail/ctk-developers/2013-May/001120.html)/del {{done}} Fixed by [74b4b07b9](74b4b07b9)(https://github.com/commontk/CTK/commit/74b4b07b92f2a3ac492fef6dcb429bd08c513d59)
+- delDCMTK build issues [http://public.kitware.com/pipermail/ctk-developers/2013-May/001122.html](http://public.kitware.com/pipermail/ctk-developers/2013-May/001122.html) [http://public.kitware.com/pipermail/ctk-developers/2013-May/001120.html](http://public.kitware.com/pipermail/ctk-developers/2013-May/001120.html)/del `{{done}}` Fixed by [74b4b07b9](https://github.com/commontk/CTK/commit/74b4b07b92f2a3ac492fef6dcb429bd08c513d59)
 - A drop-in CMake module allowing to easily setup Superbuild project. 
 ** Consolidate CTK, Slicer, .. approach
 - Collection of "External_XXX.cmake" file that could easily be re-used ? (See https://github.com/BRAINSia/NAMICExternalProjects)
-- delFinalize work related to qRestAPI project (pending since Bologna hackfest)/del {{done}} History cleaned and pushed: https://github.com/commontk/qRestAPI
+- delFinalize work related to qRestAPI project (pending since Bologna hackfest)/del `{{done}}` History cleaned and pushed: https://github.com/commontk/qRestAPI
 - Results
 ** Fixed and tested the DCMTK build issues
 ** Windows build issues identified for PythonQt on windows vs 2010/2012 (include order of std vector header)
@@ -252,18 +251,18 @@ Evening: BBQ at the Fichtinger residence
       1. Tuesday
 During the day: hack, hack, hack...
 
-Evening: Dinner and beers at the [Kingston Brewery](Kingston Brewery)(http://www.kingstonbrewing.ca/)
+Evening: Dinner and beers at the [Kingston Brewery](http://www.kingstonbrewing.ca/)
 
       1. Wednesday
 During the day: hack, hack, hack...
 10:30 Hangout to review status
 
-Evening: [Kingston Haunted Walks](Kingston Haunted Walks)(http://www.hauntedwalk.com/kingstontours.php)
+Evening: [Kingston Haunted Walks](http://www.hauntedwalk.com/kingstontours.php)
 
       1. Thursday
 During the day: hack, hack, hack...
 
-Evening: BBQ by the [gazebo](gazebo)(http://farm5.staticflickr.com/4042/4276978263_96c7a234ff_b.jpg) on the waterfront
+Evening: BBQ by the [gazebo](http://farm5.staticflickr.com/4042/4276978263_96c7a234ff_b.jpg) on the waterfront
 
       1. Friday
 During the day: hack, hack, hack...
@@ -272,7 +271,7 @@ Late morning; Closing discussion
 
 https://plus.google.com/hangouts/_/33c4f3b6fd88ee2330172c2c91439632c7d6e9b6?authuser=0hl=en
 
-- [Next hackfest in London, UK](Next hackfest in London, UK)(http://public.kitware.com/pipermail/ctk-developers/2013-May/001126.html)!?! 
+- [Next hackfest in London, UK](http://public.kitware.com/pipermail/ctk-developers/2013-May/001126.html)!?! 
 - Then back in North America - St. Louis - when?
 
 Afternoon: hack or travel
@@ -298,8 +297,8 @@ If you have any troubles during your visit, call *TBD*.
 
 - Option A: Fly into Kingston via Toronto
 - Option B: Fly into Toronto, take a bus to Kingston
-** Recommended: Coach Canada direct bus from Toronto Airport to Kingston, leaves twice a day: 2.30pm and 7pm. You can buy the ticket from a Kiosk at the airport or [buy online](buy online)(http://www.coachcanada.com/coachcanada/index.asp?_lp.lang=en)
-** Megabus from Toronto downtown: [get to the Toronto Coach Terminal](get to the Toronto Coach Terminal)(http://www.tripadvisor.ca/Travel-g155019-c116016/Toronto:Ontario:Getting.Downtown.From.Pearson.Airport.html), take a bus to Kingston, leaves in about every hour. [Online reservation](Online reservation)(http://ca.megabus.com/default.aspx) is strongly recommended, as early as possible, because the prices are continuously increasing (starts from $1 and increased to about $40).
+** Recommended: Coach Canada direct bus from Toronto Airport to Kingston, leaves twice a day: 2.30pm and 7pm. You can buy the ticket from a Kiosk at the airport or [buy online](http://www.coachcanada.com/coachcanada/index.asp?_lp.lang=en)
+** Megabus from Toronto downtown: [get to the Toronto Coach Terminal](http://www.tripadvisor.ca/Travel-g155019-c116016/Toronto:Ontario:Getting.Downtown.From.Pearson.Airport.html), take a bus to Kingston, leaves in about every hour. [Online reservation](http://ca.megabus.com/default.aspx) is strongly recommended, as early as possible, because the prices are continuously increasing (starts from $1 and increased to about $40).
 
 **Transportation on Site**
 
@@ -316,7 +315,7 @@ Be aware there is a Queen's event during the week of the hackfest so try to book
 
 **Meeting Location**
 
-[Queen's University](Queen's University)(https://maps.google.ca/maps?q=Queen's+Universityhl=ensll=44.225024,-76.493151sspn=0.010379,0.026157t=vhq=Queen's+Universityz=16iwloc=A), [Kinesiology building](Kinesiology building)(http://www.queensu.ca/campusmap/?mapquery=kinesiology), room #107.
+[Queen's University](https://maps.google.ca/maps?q=Queen's+Universityhl=ensll=44.225024,-76.493151sspn=0.010379,0.026157t=vhq=Queen's+Universityz=16iwloc=A), [Kinesiology building](http://www.queensu.ca/campusmap/?mapquery=kinesiology), room #107.
 
 **Weather**
 
@@ -328,11 +327,11 @@ Plan on having breakfast at your hotel before the meeting.  A variety of lunch o
 
 **Optional Activities in the Area**
 
-- [Boat Cruise in Thousand Islands](Boat Cruise in Thousand Islands)(http://www.ganboatline.com/LostShipsTour.asp)
-- [Trip to Niagara Falls (Sat-Sun)](Trip to Niagara Falls (Sat-Sun))(http://www.niagarafallstourism.com/)
-- Wildlife Canoeing ([Thousand Islands](Thousand Islands)(http://www.1000islandskayaking.com/), [Bon Echo](Bon Echo)(http://www.ontarioparks.com/english/bone.html), [Charleston Lake](Charleston Lake)(http://www.ontarioparks.com/english/char.html), etc.)
-- [Kingston Haunted Walks](Kingston Haunted Walks)(http://www.hauntedwalk.com/kingstontours.php)
+- [Boat Cruise in Thousand Islands](http://www.ganboatline.com/LostShipsTour.asp)
+- [Trip to Niagara Falls (Sat-Sun)](http://www.niagarafallstourism.com/)
+- Wildlife Canoeing ([Thousand Islands](http://www.1000islandskayaking.com/), [Bon Echo](http://www.ontarioparks.com/english/bone.html), [Charleston Lake](http://www.ontarioparks.com/english/char.html), etc.)
+- [Kingston Haunted Walks](http://www.hauntedwalk.com/kingstontours.php)
 - Art after dark:
 ** http://www.downtownkingston.ca/files/13%20Art%20After%20Dark_Spring%20Featured%20Artists.pdf
 ** http://www.downtownkingston.ca/files/13%20Art%20After%20Dark_Spring%20Gallery%20Map.pdf
-- Canadian Souvenirs: [Red Maple](Red Maple)(https://maps.google.ca/maps?ie=UTF-8q=red+maple+kingstonfb=1gl=cahq=red+maplehnear=0x4cd2ab0674408ea9:0x76a5497715d6d9ea,Kingston,+ONcid=0,0,6137054689914097153ei=ZkOeUbWiI8PWygGD0YG4Cgved=0CIEBEPwSMAA), some stuff they sell: http://shop.red-maple.ca/
+- Canadian Souvenirs: [Red Maple](https://maps.google.ca/maps?ie=UTF-8q=red+maple+kingstonfb=1gl=cahq=red+maplehnear=0x4cd2ab0674408ea9:0x76a5497715d6d9ea,Kingston,+ONcid=0,0,6137054689914097153ei=ZkOeUbWiI8PWygGD0YG4Cgved=0CIEBEPwSMAA), some stuff they sell: http://shop.red-maple.ca/

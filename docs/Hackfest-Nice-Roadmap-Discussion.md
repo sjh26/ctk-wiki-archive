@@ -1,12 +1,10 @@
 ---
 title: Hackfest Nice Roadmap Discussion
-render_with_liquid: false
 ---
-
 
 Topics to discuss:
 
-- Need to fill in [CTK-Roadmap](CTK-Roadmap)(CTK-Roadmap.md) document
+- Need to fill in [CTK-Roadmap](CTK-Roadmap.html) document
 - Repository modularisation
 ** Where goes Slicer Execution Model 
 - Releases in CTK
@@ -27,4 +25,3 @@ Topics to discuss:
   
 Topics discussed:
 - Log4Qt
-

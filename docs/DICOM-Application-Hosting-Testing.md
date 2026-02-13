@@ -1,11 +1,9 @@
 ---
 title: DICOM Application Hosting Testing
-render_with_liquid: false
 ---
 
-
 1. SOAP API Testing
-This sections on SOAP API Testing summarizes experiences gathered at the [in Sophia Antipolis](in Sophia Antipolis)(hackfest)(CTK-Hackfest-Nov-2011.md) in November 2011.
+This sections on SOAP API Testing summarizes experiences gathered at the [hackfest in Sophia Antipolis](CTK-Hackfest-Nov-2011.html) in November 2011.
 
     1. High - level test suites
 That's what I can see so far:
@@ -14,7 +12,7 @@ That's what I can see so far:
 - Functional testing: Test the "logic" of the host and app (proper state transitions, correct notification messages, etc.)
 
     1. Possible solutions
-- Use [SoapUI](SoapUI)(http://www.soapui.org/) and its command line support to integrate it with ctest.
+- Use [SoapUI](http://www.soapui.org/) and its command line support to integrate it with ctest.
 ** Automatically generate tests for WSDL compliance using the official WSDL file
 ** Create manual functional tests within the SoapUI GUI and put the project file in the CTK git repository
 
@@ -40,4 +38,3 @@ Just some pieces of information we (Michael C.) gathered during the Sophia-Antip
 
   1. Integration Testing
 In contrast to a conventional Web services architecture, DICOM Application Hosting uses Web services for bidirectional communication between the hosting system and the hosted applications. This limits the use of general SOAP testing suites to relatively simple SOAP message conformance tests. For example, testing the method "notifiyStateChanged" of the host interface requires that "setState" of the application interface has been called before - thus, the test has to be a service provider itself, which is not supported by general high level SOAP testing suites (please correct and add links, if you know testing solutions that allowing this).
-

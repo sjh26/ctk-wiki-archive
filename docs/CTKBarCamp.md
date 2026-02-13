@@ -1,8 +1,6 @@
 ---
 title: CTKBarCamp
-render_with_liquid: false
 ---
-
 
 bThis page is obsolete/b
 
@@ -18,14 +16,14 @@ Dear FUTURE_MEMBER_NAME,
 
 You recently requested to join the CTK BarCamp community on Google plus. Before approving your request to join the CTKBarCamp, I am reaching to you to make sure this community aligns with your interests.
 
-The main idea behind this community is to share facts, idea and news related the medical imaging field and the open-source library CTK [1](1)
+The main idea behind this community is to share facts, idea and news related the medical imaging field and the open-source library CTK [1]
 
 Let me know if you are still interested and will gladly approve your request,
 
 Best,
 YOUR_NAME on behalf of the CTK community
 
-[1](1) http://www.commontk.org
+[1] http://www.commontk.org
 /pre
 
 
@@ -41,4 +39,3 @@ See http://commontk.org/index.php/Getting_Started
 Best,
 YOUR_NAME on behalf of the CTK community
 /pre
-

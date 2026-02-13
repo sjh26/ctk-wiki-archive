@@ -1,13 +1,12 @@
 ---
 title: CTK-Hackfest-Nov-2011
-render_with_liquid: false
 ---
 
 1. Event pictures
 {|
-|[is hard work!/big](is hard work!/big)(thumb|right|250px|bigHacking)(image:2011-11-Hackfest-photo.JPG.md)
-|[out the demos/big](out the demos/big)(thumb|right|250px|bigChecking)(image:2011-11-Hackfest-photo-demos.JPG.md)
-|[nice progress in Nice/big](nice progress in Nice/big)(thumb|right|250px|bigPretty)(image:2011-11-Hackfest-photo-demos2.JPG.md)
+|![Hacking is hard work!](images/2011-11-Hackfest-photo.JPG)
+|![Checking out the demos](images/2011-11-Hackfest-photo-demos.JPG)
+|![Pretty nice progress in Nice](images/2011-11-Hackfest-photo-demos2.JPG)
 |}
 
   1. Introduction
@@ -17,11 +16,11 @@ render_with_liquid: false
 
 **Location:** INRIA - Sophia Antipolis, France
 
-**Goal:** A follow on to the [successful previous hackfests!](successful previous hackfests!)(wildly)(Commontk:Current_events#Past_events.md)
+**Goal:** A follow on to the [wildly successful previous hackfests!](CommontkCurrent-events.html#Past_events)
 
 **Requirements:** Attendees must be willing to spend their time during the event with writing ctk code that contributes to the main ctk roadmap.  People who do not feel qualified for this are politely not invited :)
 
-**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Site Hosts:** Beno�t Bleuz�
 
@@ -39,59 +38,59 @@ render_with_liquid: false
 |-
 | Jean-Chistophe Fillion-Robin
 | Kitware
-| {{True}}
+| `{{True}}`
 |-
 | Julien Finet
 | Kitware
-| {{True}}
+| `{{True}}`
 |-
 | Steve Pieper
 | Isomics
-| {{True}}
+| `{{True}}`
 |-
 | Ivo Wolf
 | Hochschule Mannheim
-| {{True}}
+| `{{True}}`
 |-
 | Marco Nolden
 | DKFZ, Heidelberg
-| {{True}}
+| `{{True}}`
 |-
 | Sascha Zelzer
 | DKFZ, Heidelberg
-| {{True}}
+| `{{True}}`
 |-
 | Beno�t Bleuz�
 | INRIA, Sophia-Antipolis
-| {{False}}
+| `{{False}}`
 |-
 | Matt Clarkson
 | University College London
-| {{True}}
+| `{{True}}`
 |-
 | Daniele Giunchi
 | SCS, Bologna
-| {{True}}
+| `{{True}}`
 |-
 | Roberto Mucci
 | SCS, Bologna
-| {{True}} 
+| `{{True}}` 
 |-
 | Martin Stegh�fer
 | UPF, Barcelona
-| {{True}}
+| `{{True}}`
 |-
 | Yves Martelli
 | UPF, Barcelona
-| {{True}} 
+| `{{True}}` 
 |-
 | Anthony Dass
 | Siemens Corporate Research, Princeton
-| {{True}}
+| `{{True}}`
 |-
 | Michael Onken
 | OFFIS, Oldenburg
-| {{False}}
+| `{{False}}`
 |}
 
 
@@ -107,12 +106,12 @@ render_with_liquid: false
 |}
 --
 
-{{Note}}There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
+`{{Note}}`There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 Phone conferences have been scheduled in the weeks leading to the event:
 - Tuesday 25th October 2011 18:00 (CET) - 12:00 (EST)
@@ -120,7 +119,7 @@ Phone conferences have been scheduled in the weeks leading to the event:
 
   1. Topics and Projects
       1. Roadmap development
-*Develop a [for the CTK core](for the CTK core)(roadmap)(CTK-Roadmap.md). It is advised to begin pondering on this in the weeks leading to the hack-fest in order to dedicate as much time as possible to the real hacking during the week. The [for the CTK core](for the CTK core)(roadmap)(CTK-Roadmap.md) is a good place to start your thinking. It has been written by Ivo and Marco at the start of the CTK initiative.
+*Develop a [roadmap for the CTK core](CTK-Roadmap.html). It is advised to begin pondering on this in the weeks leading to the hack-fest in order to dedicate as much time as possible to the real hacking during the week. The [roadmap for the CTK core](CTK-Roadmap.html) is a good place to start your thinking. It has been written by Ivo and Marco at the start of the CTK initiative.
 
 Participants
 *Steve
@@ -137,7 +136,7 @@ Possible work items:
 ** Research XPath libraries (Qt?)(Ben)
 - Error handling
 ** throw execptions after a configurable timeout (Sascha)
-- [ Conformance testing]( Conformance testing)(DICOM_Application_Hosting_Testing .md) (for both host and app)
+- [Conformance testing](DICOM-Application-Hosting-Testing.html) (for both host and app)
 ** Interface (WSDL) compliance
 ** State transition tests
 - Demo Application (Ivo, Anthony)
@@ -157,14 +156,14 @@ Participants
 - Daniele
 - Roberto
 
-Look at the [ progress]( progress)(Hackfest_Nice_AppHosting_Progress .md) made at the hackfest.
+Look at the [progress](Hackfest-Nice-AppHosting-Progress.html) made at the hackfest.
 
       1. DICOM Networking
 Possible work items:
 
-See [CtkDICOM](CtkDICOM)(CtkDICOM.md) for possible goals.
+See [CtkDICOM](CtkDICOM.html) for possible goals.
 
-- See [in Slicer4](in Slicer4)(ctkDICOM)(ctkDICOM in Slicer4.md) for information on a particular application use case.
+- See [ctkDICOM in Slicer4](ctkDICOM-in-Slicer4.html) for information on a particular application use case.
 
 Participants
 
@@ -198,34 +197,34 @@ Resolve github issues
 ! scope=col style="background:#cde6f8;"| Status
 ! scope=col style="background:#cde6f8;"| Remarks
 |-
-| [install target](install target)(https://github.com/commontk/CTK/issues/10)
+| [install target](https://github.com/commontk/CTK/issues/10)
 |
-| {{Not_Done}}
+| `{{Not_Done}}`
 |
 |-
-| [ExternalProject to use CMAKE_CACHE_ARGS](ExternalProject to use CMAKE_CACHE_ARGS)(https://github.com/commontk/CTK/issues/13)
+| [ExternalProject to use CMAKE_CACHE_ARGS](https://github.com/commontk/CTK/issues/13)
 | Jc
-| {{Done}}
+| `{{Done}}`
 | See https://github.com/commontk/CTK/commit/388a43f635ea40f49b36a3aa1695e750854d2cd3
 |-
-| [Error improperly reported on CDash](Error improperly reported on CDash)(https://github.com/commontk/CTK/issues/23)
+| [Error improperly reported on CDash](https://github.com/commontk/CTK/issues/23)
 |
-| {{Not_Done}}
+| `{{Not_Done}}`
 |
 |-
-| [CTK windows configuration error (DGraph-related)](CTK windows configuration error (DGraph-related))(https://github.com/commontk/CTK/issues/26)
+| [CTK windows configuration error (DGraph-related)](https://github.com/commontk/CTK/issues/26)
 | Matt
-| {{Done}}
+| `{{Done}}`
 |
 |-
-| [Failing tests in ctkCore](Failing tests in ctkCore)(https://github.com/commontk/CTK/issues/27)
+| [Failing tests in ctkCore](https://github.com/commontk/CTK/issues/27)
 | Jc
-| {{Doing}}
+| `{{Doing}}`
 | See [https://github.com/commontk/CTK/commit/3b06461b8ffabc7c5763cac747c1a5104f4340c8](https://github.com/commontk/CTK/commit/3b06461b8ffabc7c5763cac747c1a5104f4340c8)
 |-
-| [Minimize confusion associated with buildsystem](Minimize confusion associated with buildsystem)(https://github.com/commontk/CTK/issues/30)
+| [Minimize confusion associated with buildsystem](https://github.com/commontk/CTK/issues/30)
 |
-| {{Not_Done}}
+| `{{Not_Done}}`
 | 
 |}
 
@@ -239,14 +238,14 @@ Participants
 **Monday 14th**: 9:30-18:00
 - Presentations 9:30 12:45:
 ** each institution will present in 15 minutes + 5 minutes of questions how they use CTK, or what do they expect from it.
-*** [CTK within Slicer](CTK within Slicer)(http://www.commontk.org/index.php/File:2011_11_14-CTK_Hackfest-CTK_within_Slicer.pptx)
-**** [CtkDICOM](CtkDICOM)(CtkDICOM_in_Slicer4.md)
-*** [ CTK within MITK]( CTK within MITK)(Media:Hackfest-2011-11-CTKandMITK.pdf .md)
+*** [CTK within Slicer](http://www.commontk.org/index.php/File:2011_11_14-CTK_Hackfest-CTK_within_Slicer.pptx)
+**** [CtkDICOM](CtkDICOM-in-Slicer4.html)
+*** [CTK within MITK](MediaHackfest-2011-11-CTKandMITK.pdf.html)
 ** Dicom Application Hosting introduction: where we stand, how much further this week? (Beno�t)
 ** Dicom Networking (Steve, Michael)
-** Plugin Framework (Sascha) [ [ pdf]( [ pdf)(Media:Hackfest-2011-11-PluginFrameworkCurrentState.pdf .md) ]
+** Plugin Framework (Sascha) [ [pdf](MediaHackfest-2011-11-PluginFrameworkCurrentState.pdf.html) ]
 ** Testing Framework (Julien) 
-*** [Presentation](Presentation)(http://www.commontk.org/index.php/File:2011_11_14-CTK_Hackfest-Unit_testing_framework.pptx)
+*** [Presentation](http://www.commontk.org/index.php/File:2011_11_14-CTK_Hackfest-Unit_testing_framework.pptx)
 - Afternoon:
 ** end of presentations
 ** Road Map
@@ -261,7 +260,7 @@ Participants
 *Morning 9:00 12:45:
 **Hacking
 *Afternoon 13:45 - 16:00:
-**[ Roadmap Discussion]( Roadmap Discussion)(Hackfest_Nice_Roadmap_Discussion .md)
+**[Roadmap Discussion](Hackfest-Nice-Roadmap-Discussion.html)
 *Afternoon 16:00 - 18:00:
 **Hacking
 
@@ -274,9 +273,9 @@ Participants
 *More hacking
 
   1. Demos
-CTK Dicom Widget used by brand new mafPluginCTK, inside a MAF3 Application: [videoDemo](videoDemo)(https://www.biomedtown.org/biomed_town/MAF/MAF3%20Floor/download/wiki_folder.2011-11-17.4013453397/CTKDicomimporter)
+CTK Dicom Widget used by brand new mafPluginCTK, inside a MAF3 Application: [videoDemo](https://www.biomedtown.org/biomed_town/MAF/MAF3%20Floor/download/wiki_folder.2011-11-17.4013453397/CTKDicomimporter)
 
-How about a QA system for CTK? Here the first preview:[QA](QA)(https://www.biomedtown.org/biomed_town/MAF/MAF3%20Floor/download/wiki_folder.2011-11-17.4013453397/CTKQA/image)
+How about a QA system for CTK? Here the first preview:[QA](https://www.biomedtown.org/biomed_town/MAF/MAF3%20Floor/download/wiki_folder.2011-11-17.4013453397/CTKQA/image)
 
 
 Demos / Progress reports on Friday:
@@ -302,7 +301,7 @@ Demos / Progress reports on Friday:
 The taxi is awfully expensive, count around 50 � to go from Nice Airport to Antibes.
 
 The bus from Antibes to INRIA is the Express 100. It starts "Place De Gaulle", the closest stop to INRIA is "Templiers", costs 1�. 
-From there it will only take you 3 minutes to reach INRIA: [map from Les Templiers](map from Les Templiers)(http://maps.google.com/maps?saddr=Route+des+Coll%C3%A9s%2FD504daddr=43.61662,7.07352+to:Unknown+roadhl=enie=UTF8sll=43.61678,7.07076sspn=0.005328,0.011362geocode=FdyLmQIdpO9rAA%3BFWyJmQId8O5rACln8B9JIivMEjE0Ny-_kgRFgQ%3BFZaHmQIdrNhrAAvpsrc=0dirflg=wmra=dmemrsp=2sz=17via=1t=hz=17)
+From there it will only take you 3 minutes to reach INRIA: [map from Les Templiers](http://maps.google.com/maps?saddr=Route+des+Coll%C3%A9s%2FD504daddr=43.61662,7.07352+to:Unknown+roadhl=enie=UTF8sll=43.61678,7.07076sspn=0.005328,0.011362geocode=FdyLmQIdpO9rAA%3BFWyJmQId8O5rACln8B9JIivMEjE0Ny-_kgRFgQ%3BFZaHmQIdrNhrAAvpsrc=0dirflg=wmra=dmemrsp=2sz=17via=1t=hz=17)
 
 **Lodging** 
 Prefer Antibes to any other locations, Sophia-Antipolis is very badly connected to places to sustain you at night, and the buses stop after 20:00/20:30
@@ -316,7 +315,7 @@ phone number: +33 4 93 34 26 30
 address: 2 Avenue Gambetta, 06600 Antibes, France
 
 (54� per night for a single room, 6.50� for breakfast)
-Also here is a map with the hotel, and the departure of the bus line 100: [file:hotel_etoile.pdf](file:hotel_etoile.pdf)(file:hotel_etoile.pdf.md)
+Also here is a map with the hotel, and the departure of the bus line 100: ![hotel etoile](images/hotel_etoile.pdf)
 There are other addresses you might find attractive, but I have made no agreement with them:
 
 *H�tel Relais du Postillon (not far from the other, good reputation among the visitors of INRIA)

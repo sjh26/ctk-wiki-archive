@@ -1,13 +1,12 @@
 ---
 title: CTK-Hackfest-Nov-2013
-render_with_liquid: false
 ---
 
 1. Event pictures
 Images from the hackfest
 gallery widths=300 px heights=200px perrow=3
 File:20131107_192029.jpg|bigHacking/big
-File:Bentham.png|big[Honorary CTK Hacker](Honorary CTK Hacker)(http://en.wikipedia.org/wiki/Jeremy_Bentham#Death_and_the_Auto-Icon)/big
+File:Bentham.png|big[Honorary CTK Hacker](http://en.wikipedia.org/wiki/Jeremy_Bentham#Death_and_the_Auto-Icon)/big
 /gallery
 
 !--
@@ -19,10 +18,10 @@ gallery widths=150 px heights=100px perrow=4
 
     1. Progress
 gallery widths=400px heights=300px perrow=2
-File:Screen Shot 2013-11-07 at 1.24.00 PM.png|DICOM Table Interface integrated in 3D Slicer's nightly build [(Documentation)]((Documentation))(http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DICOM)
+File:Screen Shot 2013-11-07 at 1.24.00 PM.png|DICOM Table Interface integrated in 3D Slicer's nightly build [(Documentation)](http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Modules/DICOM)
 File:DICOM Header Browser.png|DICOM Header Browser
 File:ctkDicomWidgetsInMITK.png|New ctkDicomTableWidgets in the MITK Dicom Editor
-File:GIMIAS_CTK_WORKFLOW.png|Taverna Workflow with GIMIAS Command Line Plugins and CTK Command Line Modules, see more [here](here)(http://www.commontk.org/index.php/Documentation/CLI_In_Context#Second_Interoperability_tests).
+File:GIMIAS_CTK_WORKFLOW.png|Taverna Workflow with GIMIAS Command Line Plugins and CTK Command Line Modules, see more [here](http://www.commontk.org/index.php/Documentation/CLI_In_Context#Second_Interoperability_tests).
 /gallery
 
   1. Introduction
@@ -33,13 +32,13 @@ File:GIMIAS_CTK_WORKFLOW.png|Taverna Workflow with GIMIAS Command Line Plugins a
 Room 1.19 (Monday, Friday) and Room 2.14 (other days)
 Malet Place Engineering Building, University College London.
 
-[to get here.](to get here.)(How)(#location.md)
+[How to get here.](unnamed.html#location)
 
-**Goal:** A follow on to the [successful previous hackfests!](successful previous hackfests!)(wildly)(Commontk:Current_events#Past_events.md)
+**Goal:** A follow on to the [wildly successful previous hackfests!](CommontkCurrent-events.html#Past_events)
 
-**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ ctk roadmap]( ctk roadmap)(CTK-Roadmap .md).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
+**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ctk roadmap](CTK-Roadmap.html).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
 
-**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Site Hosts:** Matt Clarkson (m.clarkson@ucl.ac.uk), Miklos Espak (m.espak@ucl.ac.uk)
 
@@ -124,12 +123,12 @@ Please fill in your intentions in terms of common accommodation.
 |}
 --
 
-{{Note}}There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
+`{{Note}}`There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 Phone conferences have been scheduled in the weeks leading to the event:
 - To be announced
@@ -186,7 +185,7 @@ Andreas, Steve
     1. CTK packaging
 Marco, Sascha
 
-- continue [ Debian packaging support]( Debian packaging support)(Debian_Packaging .md)
+- continue [Debian packaging support](Debian-Packaging.html)
 
     1. General Discussion
 - Create support for CLI Web Services in CTK?
@@ -197,7 +196,7 @@ Marco, Sascha
 Opening discussion
 - Review topics and projects
 - Plans for the week
-- Review [open issues on github](open issues on github)(https://github.com/commontk/CTK/issues?state=open).
+- Review [open issues on github](https://github.com/commontk/CTK/issues?state=open).
 
 Evening:
 
@@ -206,7 +205,7 @@ During the day: hack, hack, hack...
 
 15:00 Google Hangout with US and other participants
 
-- Talk about DCMTK_DIR ([Issue 382](Issue 382)(https://github.com/commontk/CTK/issues/382))
+- Talk about DCMTK_DIR ([Issue 382](https://github.com/commontk/CTK/issues/382))
 ** Michael: Would integrate the DCMTKConfig.cmake file but needs more time to check the changes and make sure it works for everyone
 ** Jc: NO_DEFAULT_PATH in FindDCMTK.cmake would work for Slicer, CTK, etc. but in the future (when all distributions contain a DCMTK package with a DCMTKConfig.cmake) FindDCMTK.cmake should not be needed anymore
 ** Marco: We still need a way to find the system installed DCMTK
@@ -303,13 +302,13 @@ If you have any troubles during your visit, call +44 792 6656 927.
 
 **Transportation**
 
-[How to get to the UCL.](How to get to the UCL.)(http://www.ucl.ac.uk/maps/public-transport)
+[How to get to the UCL.](http://www.ucl.ac.uk/maps/public-transport)
 
 **Lodging** 
 
 Hotels in central London can be expensive, this one seems reasonably priced:
 
-- [The Tavistock Hotel](The Tavistock Hotel)(http://www.imperialhotels.co.uk/tavistock)
+- [The Tavistock Hotel](http://www.imperialhotels.co.uk/tavistock)
 
 div id="location"**Meeting Location**/div
 
@@ -321,9 +320,9 @@ Other days: room 2.14
 
 The reception is at the **Engineering Front Building** right at the gate, so please come there and refer to the CTK hackfest.
 
-[UCL Bloomsbury campus map](UCL Bloomsbury campus map)(http://www.ucl.ac.uk/maps)
+[UCL Bloomsbury campus map](http://www.ucl.ac.uk/maps)
 
-[UCL campus route finder](UCL campus route finder)(http://crf.casa.ucl.ac.uk/)
+[UCL campus route finder](http://crf.casa.ucl.ac.uk/)
 
 **Weather**
 

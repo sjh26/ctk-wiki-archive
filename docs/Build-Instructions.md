@@ -1,10 +1,8 @@
 ---
 title: Build Instructions
-render_with_liquid: false
 ---
 
-
-The following instructions are valid as of October 2012 (if something is incorrect, please [report an issue](report an issue)(https://github.com/commontk/CTK/issues/new)).
+The following instructions are valid as of October 2012 (if something is incorrect, please [report an issue](https://github.com/commontk/CTK/issues/new)).
 
   1. Prerequisites
 - git version 1.6.5 or later
@@ -34,7 +32,7 @@ The following instructions are valid as of October 2012 (if something is incorre
 - turn on the parts of CTK you want to build
 
     1. How to use CTK ?
-See the [Examples](Examples)(http://www.github.com/commontk/Examples) project that illustrates how CTK can be integrated into applications.
+See the [Examples](http://www.github.com/commontk/Examples) project that illustrates how CTK can be integrated into applications.
 
 1. Contribute
   1. Simple Git
@@ -72,13 +70,12 @@ See also https://docs.github.com/en/get-started/using-git
 
 1. Links
 List of needed tools and libraries used when building CTK:
-- [Git](Git)(http://git-scm.com/download): To download source code
-- [Qt](Qt)(https://www.qt.io/download-open-source): Dependency required.
-- [CMake](CMake)(http://www.cmake.org/cmake/resources/software.html): Cross-platform build system
-- [Patch for Windows](Patch for Windows)(http://gnuwin32.sourceforge.net/packages/patch.htm): Needed to apply patches to external thirdparty libraries source code
+- [Git](http://git-scm.com/download): To download source code
+- [Qt](https://www.qt.io/download-open-source): Dependency required.
+- [CMake](http://www.cmake.org/cmake/resources/software.html): Cross-platform build system
+- [Patch for Windows](http://gnuwin32.sourceforge.net/packages/patch.htm): Needed to apply patches to external thirdparty libraries source code
 
 Optional:
-- [Python](Python)(http://www.python.org/download/): If you plan to use Scripting
-- [DoxyGen](DoxyGen)(http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc): To generate documentation from source code on your machine
-- [GraphViz](GraphViz)(http://www.graphviz.org/Download.php): To generate documentation from source code on your machine
-
+- [Python](http://www.python.org/download/): If you plan to use Scripting
+- [DoxyGen](http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc): To generate documentation from source code on your machine
+- [GraphViz](http://www.graphviz.org/Download.php): To generate documentation from source code on your machine

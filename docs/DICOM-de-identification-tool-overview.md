@@ -1,8 +1,6 @@
 ---
 title: DICOM de-identification tool overview
-render_with_liquid: false
 ---
-
 
 1. Specific use cases and requirements for de-identification
     1. Requirements
@@ -14,7 +12,7 @@ render_with_liquid: false
 ** e.g. in MITK and Slicer?
 - Specify conditions like if tag value is equal to XYZ then remove all private tags except of tag list
 
-Some issues, which anonymization tools often have, found on the [Plastimatch homepage](Plastimatch homepage)(http://plastimatch.org/dicom_comparison.html), also providing a comparison:
+Some issues, which anonymization tools often have, found on the [Plastimatch homepage](http://plastimatch.org/dicom_comparison.html), also providing a comparison:
 
 - Some date fields cannot be changed (duh)
 - It is not possible to preserve relative dates (for example, we would like to set StudyDate to Jan 1, 2000, but preserve the fact that StructureSetDate occurred 35 days later)
@@ -52,7 +50,7 @@ Some issues, which anonymization tools often have, found on the [Plastimatch hom
 |-
 | DICOM Browser
 | Java
-| [Yes](Yes)(http://nrg.wustl.edu/software/dicom-browser/instructions/batch-anonymizations/)
+| [Yes](http://nrg.wustl.edu/software/dicom-browser/instructions/batch-anonymizations/)
 | Script based processing: Assignment / Deletion / Constraint and condition based / Built-in functions / Generators / user defined variables
 | http://nrg.wustl.edu/software/dicom-browser/
 |-
@@ -75,4 +73,3 @@ Some issues, which anonymization tools often have, found on the [Plastimatch hom
 | https://github.com/cbmi/dicom-anon
 |-
 |}
-

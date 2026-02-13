@@ -21,7 +21,7 @@ Pear,Yellow,"Pear-shaped"
 ! Name
 ! Color `{{#for_external_table:nowiki/`
 {{!}}-
-{{!}} [{`{{name}}`}]({`{{name}}`})({`{{name}}`}.md)
+{{!}} [{`{{name}}`}]({`{{name}}`}.html)
 {{!}} {`{{color}}`} }}
 |}
 
@@ -43,6 +43,6 @@ Pear,Yellow,"Pear-shaped"
 ! Name
 ! Color `{{#for_external_table:nowiki/`
 {{!}}-
-{{!}} [{`{{name}}`}]({`{{name}}`})({`{{name}}`}.md)
+{{!}} [{`{{name}}`}]({`{{name}}`}.html)
 {{!}} {`{{color}}`} }}
 |}

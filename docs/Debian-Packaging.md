@@ -1,21 +1,19 @@
 ---
 title: Debian Packaging
-render_with_liquid: false
 ---
-
 
 1. Status
 There is an experimental debian package here: http://packages.qa.debian.org/c/ctk.html
 
 The current Debian sources for CTK are here: http://anonscm.debian.org/viewvc/debian-med/trunk/packages/ctk/trunk/debian/
 
-Some experimental changes are published here: https://github.com/nolden/ctk-debian and https://github.com/nolden/CTK/commits/debian-patches *Update 11/05/2013:* everything from here has been merged upstream, apart from the DCMTK workarounds, see [below](below)(#DCMTK.md).
+Some experimental changes are published here: https://github.com/nolden/ctk-debian and https://github.com/nolden/CTK/commits/debian-patches *Update 11/05/2013:* everything from here has been merged upstream, apart from the DCMTK workarounds, see [below](unnamed.html#DCMTK).
 
 
   1. Related Issues and Pull Requests on Github
-[RESOLVED](RESOLVED) https://github.com/commontk/CTK/issues/65 
+[RESOLVED] https://github.com/commontk/CTK/issues/65 
 
-[RESOLVED](RESOLVED) https://github.com/commontk/CTK/pull/158
+[RESOLVED] https://github.com/commontk/CTK/pull/158
 
   1. Working configuration
 *Updated 11/05/2013*
@@ -88,7 +86,7 @@ DCMTK_DIR:PATH=/usr
   1. Open issues
 - CTK side
 ** installation of CMake files: make CTKConfig.cmake and UseCTK.cmake relocatable (after some cleanup), see also https://github.com/commontk/CTK/pull/158#issuecomment-6955188
-*** For examples, see [commontk/DCMTK@f461865d](commontk/DCMTK@f461865d)(https://github.com/commontk/DCMTK/commit/f461865d1759854db56e4c840991c81c77e45bb9) and [python-cmake-buildsystem@3f504d8b](python-cmake-buildsystem@3f504d8b)(https://github.com/davidsansome/python-cmake-buildsystem/commit/3f504d8be5b41086f615494517ddd2cf66f4d365)
+*** For examples, see [commontk/DCMTK@f461865d](https://github.com/commontk/DCMTK/commit/f461865d1759854db56e4c840991c81c77e45bb9) and [python-cmake-buildsystem@3f504d8b](https://github.com/davidsansome/python-cmake-buildsystem/commit/3f504d8be5b41086f615494517ddd2cf66f4d365)
 *** CMake wiki page: http://www.cmake.org/Wiki/CMake/Tutorials/How_to_create_a_ProjectConfig.cmake_file
 ** make DGraph work for external projects without a CTK source tree
 ** test whether CTK CMake macros work with an installation tree depicted above
@@ -105,7 +103,7 @@ ITK 4 in Debian has limited architecture support:
 
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=724711
 
-The ITK package also recently [added a dependency](added a dependency)(http://anonscm.debian.org/viewvc/debian-med/trunk/packages/insighttoolkit/trunk/debian/control?r1=15674r2=15675) to an older version of DCMTK. Currently we assume CTK will use the new DCMTK package which is still in experimental.
+The ITK package also recently [added a dependency](http://anonscm.debian.org/viewvc/debian-med/trunk/packages/insighttoolkit/trunk/debian/control?r1=15674r2=15675) to an older version of DCMTK. Currently we assume CTK will use the new DCMTK package which is still in experimental.
 
 We need ITK for the ttCTK_LIB_ImageProcessing/ITK/Core/tt setting. The options are
 - disable the option and move the class to Slicer or other packages needing it
@@ -142,4 +140,3 @@ http://debian.2.n7.nabble.com/Bug-747436-libvtk6-Libraries-are-possibly-underlin
 There is a debian package called libqtsolutions-soap-2.7-1, but there is no development package so it's unclear if this can be useful.
 
 *Update 11/05/2013:* libqtsolutions-soap-2.7-1 is probably not useful. In the CTK context QtSoap is currently only needed for DICOM application hosting which itself is highly experimental and should probably be omitted from an initial debian package anyway
-

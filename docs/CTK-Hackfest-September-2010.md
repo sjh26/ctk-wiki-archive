@@ -1,16 +1,14 @@
 ---
 title: CTK-Hackfest-September-2010
-render_with_liquid: false
 ---
-
 
 1. Event pictures
 {|
 |align="left"|This was a working meeting - we wrote and debugged a lot of code!.
-|[Excellent Hosts/big](Excellent Hosts/big)(thumb|200px|bigMost)(File:Chiara-and-Yves.JPG.md)
-|[Hackers/big](Hackers/big)(thumb|200px|bigHappy)(File:Julien-and-Jc.JPG.md)
-|[Problem Solving/big](Problem Solving/big)(thumb|200px|bigCooperative)(File:Pedro,Sascha,Xavi,Benoit,Yves,Ivo,Marco.JPG.md)
-|[Happy Hackers/big](Happy Hackers/big)(thumb|200px|bigMore)(File:Paolo-and-Daniele.JPG.md)
+|![Most Excellent Hosts](images/Chiara-and-Yves.JPG)
+|![Happy Hackers](images/Julien-and-Jc.JPG)
+|![Cooperative Problem Solving](images/Pedro,Sascha,Xavi,Benoit,Yves,Ivo,Marco.JPG)
+|![More Happy Hackers](images/Paolo-and-Daniele.JPG)
 |}
 
   1. Introduction
@@ -20,11 +18,11 @@ render_with_liquid: false
 Barcelona
 
 
-**Goal:** A follow on to the wildly successful [March 2010 pre-hackfest](March 2010 pre-hackfest)(http://www.na-mic.org/Wiki/index.php/Events:CTK-Pre-Hackfest-2010) and [ May 2010 hackfest]( May 2010 hackfest)(CTK-Hackfest-May-2010.md) .
+**Goal:** A follow on to the wildly successful [March 2010 pre-hackfest](http://www.na-mic.org/Wiki/index.php/Events:CTK-Pre-Hackfest-2010) and [May 2010 hackfest](CTK-Hackfest-May-2010.html) .
 
 **Requirements:** attendees must be enthusiastic about CTK and willing to spend their time with the details of dicom, git, cmake, c++, Qt, vtk, itk, openinventor, and related technologies.  People who do not feel qualified for this are politely not invited :)
 
-**Group size:** maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Organizers:** Ivo Wolf, Steve Pieper, Stephen Aylward
 
@@ -49,9 +47,9 @@ Barcelona
 **Future Events:** The organizing committee invited a group of developers to get the CTK project started and we've believe we've reached capacity for this event.  Future hackfests will be announced in advance and we hope lots of people will be interested in participating.  The venue and activities at future hackfests will be determined based on the number of active participants in the project.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 **We plan to hold weekly phone conferences during the month leading up to the actual hackfest.  Be prepared to discuss projects so we can make the most effective use of the face-to-face hackfest time.**
 
@@ -62,7 +60,7 @@ Nominally 9am to 5pm each day Monday through Friday.  Monday will start with a r
 ** 9am - welcome
 ** Everyone should say a few words of what they want to accomplish during the week.  Also state if you would like to present on a topic and lead a discussion so these can be added to the agenda.
 ** Review of git methodologies (Jc, Benoit, Sascha and all)
-** Options for C++ DICOM Application Hosting implementation in CTK (Sascha and other) [Presentation](Presentation)(media:DicomAppHosting.pdf.md)
+** Options for C++ DICOM Application Hosting implementation in CTK (Sascha and other) [Presentation](mediaDicomAppHosting.pdf.html)
 ** Questions for packaging CTK in debian: 1) what to enable as 'standard ctk' 2) package name: commontk or ctk? 3) build against VTK trunk or release version?  Same question for DCMTK, Qt, etc...
 ** Demos/Presentation: CreatTools, DTK/MedInria, MAF Scripts 
 **Tuesday*
@@ -73,7 +71,7 @@ Nominally 9am to 5pm each day Monday through Friday.  Monday will start with a r
 ** afternoon summary of progress and discussion of ongoing work, future {talk,hack}fests...
 
   1. Topics and Projects
-Pick up threads of discussion and activity from [Pre-Hackfest](Pre-Hackfest)(http://www.na-mic.org/Wiki/index.php/Events:CTK-Hackfest-2010) and [2010 Hackfest](2010 Hackfest)(May)(CTK-Hackfest-May-2010.md)
+Pick up threads of discussion and activity from [Pre-Hackfest](http://www.na-mic.org/Wiki/index.php/Events:CTK-Hackfest-2010) and [May 2010 Hackfest](CTK-Hackfest-May-2010.html)
 
 General set of topics (attendees, please flesh this out with your own ideas!)
 
@@ -139,7 +137,7 @@ Old:
 ** mods to CTK build system so only need libraries and includes are only included if needed (avoid compile/link errors)
 ** will send a pointer to Lawrence for comment.
 - DICOM test application [http://github.com/pieper/CTK/commit/304990558a522b391da7aaa31e1642f8deb37e09](http://github.com/pieper/CTK/commit/304990558a522b391da7aaa31e1642f8deb37e09) [http://github.com/pieper/CTK/commit/0571b151312db2b310bf0a5dd1aa189294eeb3be](http://github.com/pieper/CTK/commit/0571b151312db2b310bf0a5dd1aa189294eeb3be)
-** requires change currently only in [this dcmtk fork](this dcmtk fork)(http://github.com/pieper/DCMTK)
+** requires change currently only in [this dcmtk fork](http://github.com/pieper/DCMTK)
 - creating new dcmtk fork in commontk that can track dcmtk.org
 - bbtk (CreaTools) merged with ctk on Jc branch - integrated with console and superbuild
 - new CTKLauncher (sets environment before starting real app)
@@ -153,7 +151,7 @@ Old:
 - Some common code shared between client and server
 
     1. Friday
-- Discussed and agreed on a [ git commit style]( git commit style)(Contributing_to_CTK#Git_Commit_Style .md)
+- Discussed and agreed on a [git commit style](Contributing-to-CTK.html#Git_Commit_Style)
 - Pushed changes to commontk/DCMTK on github as proper fork of the offis dcmtk.org git [http://github.com/commontk/DCMTK](http://github.com/commontk/DCMTK)
 - MAF event bus and plug in now in ctk (extracted from MAF)
 ** demo application is close to finished
@@ -172,11 +170,11 @@ Old:
 ** currently trying to talk with xip host/app
 ** wsdl types are being sorted out (some intermittent windows / java / .net issues)
 ** working remotely Lawrence on debugging
-** [ summary wiki page]( summary wiki page)(Documentation/DicomApplicationHosting .md)
+** [summary wiki page](Documentation/DicomApplicationHosting.html)
 - Discussed testing and dashboards
 ** ctk tests include gui testing, so linux clients need to have access to X server (possibly using Xvfb)
 - ctkLauncher pretty close to working [http://github.com/jcfr/CTKAppLauncher](http://github.com/jcfr/CTKAppLauncher)
-- dicom query retrieve example application is now in commontk on github and is [enabled as a test](enabled as a test)(http://github.com/commontk/CTK/tree/81897d57563348b95e63172ebcbc325963a2e1e9/Applications/Testing/Cpp)
+- dicom query retrieve example application is now in commontk on github and is [enabled as a test](http://github.com/commontk/CTK/tree/81897d57563348b95e63172ebcbc325963a2e1e9/Applications/Testing/Cpp)
 
     1. Next Steps
 - Next Hackfest
@@ -197,15 +195,15 @@ Old:
 
 *Airport
 ** El Prat (airport code: BCN). Located at 15km from the city center, is where most international flights arrive. Accessible by Train, Bus+Metro and Taxi.
-*** Option 1. Take the [AeroBus](AeroBus)(http://www.sgmt.cat/aerobus/index.php/en/linies.html) to "Barcelona-Pl. Catalunya" (5 eur 30 min). Take the [underground](underground)(http://www.tmb.net/img/genplano.pdf) L1 red line direction L1-Fondo, from L1-Catalunya to L1-Gl�ries (1,4 eur 10 min). Take care of your wallet in the city center.
+*** Option 1. Take the [AeroBus](http://www.sgmt.cat/aerobus/index.php/en/linies.html) to "Barcelona-Pl. Catalunya" (5 eur 30 min). Take the [underground](http://www.tmb.net/img/genplano.pdf) L1 red line direction L1-Fondo, from L1-Catalunya to L1-Gl�ries (1,4 eur 10 min). Take care of your wallet in the city center.
 *** Option 2. Take the taxi until Glorias shopping centre (30 eur 30 min)
 ** Girona (airport code: GRO). Located at 90 km from Barcelona, low cost flights from Ryanair company arrive here. Only accessible by Bus. 
-*** Take the [Sagales bus](Sagales bus)(http://www.sagales.com/pubdocs/1799_aeroport-girona-costa-brava---barcelona-%28estacio-nord%29-2010-06-14.pdf) (Barcelona way) to "Estacio del Nord" in Barcelona (75 min). In "Estacio del Nord" take the [underground](underground)(http://www.tmb.net/img/genplano.pdf) red line L1 direction L1-Fondo, from L1-Arc de Triomf to L1-Gl�ries (1,4 eur 10 min).
+*** Take the [Sagales bus](http://www.sagales.com/pubdocs/1799_aeroport-girona-costa-brava---barcelona-%28estacio-nord%29-2010-06-14.pdf) (Barcelona way) to "Estacio del Nord" in Barcelona (75 min). In "Estacio del Nord" take the [underground](http://www.tmb.net/img/genplano.pdf) red line L1 direction L1-Fondo, from L1-Arc de Triomf to L1-Gl�ries (1,4 eur 10 min).
 
 *Location
 ** The event will occur in Communication Campus of the Universitat Pompeu Fabra, Barcelona.
-** [Universitat Pompeu Fabra  CISTIB](Universitat Pompeu Fabra  CISTIB)(http://cilab2.upf.edu): C/ Roc Boronat , 138, 08018 Barcelona
-** [Gooogle Map location](Gooogle Map location)(http://maps.google.com/maps?f=qsource=s_qhl=engeocode=q=C%2F+Roc+Boronat,+138,+08018+Barcelona,+Espa%C3%B1a+(Universitat+Pompeu+Fabra)sll=41.397608,2.15538sspn=0.052796,0.132093ie=UTF8hq=hnear=Carrer+de+Roc+Boronat,+138,+08018+Barcelona,+Catalunya,+Spaint=hz=17). The building is finished, even if in the map appears in construction :-)
+** [Universitat Pompeu Fabra  CISTIB](http://cilab2.upf.edu): C/ Roc Boronat , 138, 08018 Barcelona
+** [Gooogle Map location](http://maps.google.com/maps?f=qsource=s_qhl=engeocode=q=C%2F+Roc+Boronat,+138,+08018+Barcelona,+Espa%C3%B1a+(Universitat+Pompeu+Fabra)sll=41.397608,2.15538sspn=0.052796,0.132093ie=UTF8hq=hnear=Carrer+de+Roc+Boronat,+138,+08018+Barcelona,+Catalunya,+Spaint=hz=17). The building is finished, even if in the map appears in construction :-)
 ** Meeting room number is 52.421
 
 **Hotel**
@@ -231,4 +229,3 @@ If you need further details or we can give you more support, please contact Xavi
 
 **Connectivity**
 1. We will provide both wired and wireless connection
-

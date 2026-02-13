@@ -1,20 +1,18 @@
 ---
 title: Contributing to CTK
-render_with_liquid: false
 ---
-
 
 The present document aims at describing how a developer should contribute to CTK. 
 
 - The source code of CTK is currently hosted on Github. See http://github.com/commontk/CTK
 
-- It's also assumed the developer is familiar with git [http://git-scm.com/](http://git-scm.com/). There are countless amount of resources available online. A good start point could the list presented on [CMake/git page](CMake/git page)(http://www.cmake.org/Wiki/Git/Resources).
+- It's also assumed the developer is familiar with git [http://git-scm.com/](http://git-scm.com/). There are countless amount of resources available online. A good start point could the list presented on [CMake/git page](http://www.cmake.org/Wiki/Git/Resources).
 
-- We use a topic-based workflow as documented [here](here)(http://public.kitware.com/Wiki/Git/Workflow/Topic) and thus define integration branche(s):
+- We use a topic-based workflow as documented [here](http://public.kitware.com/Wiki/Git/Workflow/Topic) and thus define integration branche(s):
 ** **master** Development; starting point for new features (default)
 
 !--
-- We use a topic-based workflow as documented [here](here)(http://public.kitware.com/Wiki/Git/Workflow/Topic) and thus define integration branches:
+- We use a topic-based workflow as documented [here](http://public.kitware.com/Wiki/Git/Workflow/Topic) and thus define integration branches:
 ** **master** Release preparation; starting point for new features (default)
 ** del**next** Development; new features published here first /del
 
@@ -22,14 +20,14 @@ The present document aims at describing how a developer should contribute to CTK
 --
 
 1. Prerequisites
-- [Create an account on github.com](Create an account on github.com)(https://github.com/signup/free)
+- [Create an account on github.com](https://github.com/signup/free)
 - Fork http://github.com/commontk/CTK
 - Introduce yourself
  $ git config --global user.name "Your Name"
  $ git config --global user.email "you@yourdomain.com"
-- Use correct line endings ([more info](more info)(http://help.github.com/dealing-with-lineendings/))
- [Linux](Linux)(On) $ git config --global core.autocrlf input
- [Windows](Windows)(On) $ git config --global core.autocrlf true
+- Use correct line endings ([more info](http://help.github.com/dealing-with-lineendings/))
+ [On Linux] $ git config --global core.autocrlf input
+ [On Windows] $ git config --global core.autocrlf true
 
 1. Checkout your fork
  cd MyProject
@@ -46,7 +44,7 @@ The present document aims at describing how a developer should contribute to CTK
 
 - Note that codeYYY/code reference an issue entered in the tracker.
 
-- As a shortcut, you could also enter the following. Some useful script are also available [here](here)(http://git-wt-commit.rubyforge.org/):
+- As a shortcut, you could also enter the following. Some useful script are also available [here](http://git-wt-commit.rubyforge.org/):
  git config branch.topic1.remote origin
  git config branch.topic1.merge refs/heads/YYY-new-feature
 
@@ -100,7 +98,7 @@ After it has been validated and tested, your changes could be integrated to **ma
 
 !--
 - Initially, your feature should be integrated to **next**.
-- To integrate your change to **next**, you could follow the steps listed below. More details are also available [here](here)(http://public.kitware.com/Wiki/Git/Workflow/Topic#New_Topic).
+- To integrate your change to **next**, you could follow the steps listed below. More details are also available [here](http://public.kitware.com/Wiki/Git/Workflow/Topic#New_Topic).
  git fetch upstream                             # Retrieve change from upstream repository
  git checkout next                              # Checkout your local "next" branch
  git merge upstream                             # Make sure your local branch is up-to-date.
@@ -108,7 +106,7 @@ After it has been validated and tested, your changes could be integrated to **ma
  git push upstream                              # Publish your change on the official repository
  git push origin                                # Publish your change on your fork
 
-- After it has been validated and tested, it could be integrated to **master**. More details [here](here)(http://public.kitware.com/Wiki/Git/Workflow/Topic#Mature_Topic).
+- After it has been validated and tested, it could be integrated to **master**. More details [here](http://public.kitware.com/Wiki/Git/Workflow/Topic#Mature_Topic).
  Repeat the command listed above changing "next" into "master"
 --
 
@@ -166,7 +164,7 @@ You will find a repository named GitTutorial here: http://github.com/commontk/Gi
 The overall policy is to follow the coding conventions of the parent classes unless there is an accepted CTK exception to improve consistency or usability (to account for inconsistency in the parent class system).  
 
 - If you are writing a widget that inherits from QObject, all your code should follow Qt coding conventions.
-** Use the [Private Implementation approach ("PIMPL")](Private Implementation approach ("PIMPL"))(http://www.commontk.org/docs/html/CorePimpl.html) **except** make the member variables of your private class begin with a capital letter.  This means that when you create a widget using the QtDesigner, you must rename the widget to a local name that begins with a capital letter (since this will be an instance variable in your private implementation).
+** Use the [Private Implementation approach ("PIMPL")](http://www.commontk.org/docs/html/CorePimpl.html) **except** make the member variables of your private class begin with a capital letter.  This means that when you create a widget using the QtDesigner, you must rename the widget to a local name that begins with a capital letter (since this will be an instance variable in your private implementation).
 
 - Use *virtual* keyword also in derived class. Doing so improve readability of the code.
 
@@ -220,8 +218,7 @@ bool Foo::doSomething(int count)
 
 /syntaxhighlight
 - Within CMakeLists.txt files, source/header file names should be sorted alphabetically. It also applies with inclusion order in header/implementation files
-- [Prefer to use normalised signal/slot signatures](Prefer to use normalised signal/slot signatures)(http://marcmutz.wordpress.com/effective-qt/prefer-to-use-normalised-signalslot-signatures/)
+- [Prefer to use normalised signal/slot signatures](http://marcmutz.wordpress.com/effective-qt/prefer-to-use-normalised-signalslot-signatures/)
 
 1. FAQ
 - What the meaning of *fatal: The current branch master is not tracking anything.* ?
-

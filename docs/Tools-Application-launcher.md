@@ -2,10 +2,10 @@
 title: "Tools: Application launcher"
 ---
 
-``{{banner`
-| text = [For the latest version of this page, visit the CTkAppLauncher README on GitHub.](For the latest version of this page, visit the CTkAppLauncher README on GitHub.}}`(https://github.com/commontk/AppLauncher#readme)}}
+`{{banner`
+| text = [For the latest version of this page, visit the CTkAppLauncher README on GitHub.](https://github.com/commontk/AppLauncher#readme)}}
 
-[Launcher Logo](Launcher Logo)(200px|frame|right|Application)(Image:commontk_applauncher.png.md)
+![Application Launcher Logo](images/Commontk_applauncher.png)
 
 
     1. What is CTK Application Launcher ?
@@ -13,14 +13,14 @@ CTK Application launcher is a lightweight open-source utility allowing to set en
 
     1. Getting started
 You could either:
-- download the [pre-built binaries](pre-built binaries)(https://github.com/commontk/AppLauncher/releases) matching your operating system `{{note-with-icon-only}}`See [should I used the pre-build binaries ?](should I used the pre-build binaries ?)(#Why)(#Why should I used the pre-build binaries ?.md)''
+- download the [pre-built binaries](https://github.com/commontk/AppLauncher/releases) matching your operating system `{{note-with-icon-only}}`See [](unnamed.html#Why-should-I-used-the-pre-build-binaries-?)''
 
 or 
 
-- [build](build)(Tools:_Application_launcher/Build_Instructions.md) from the source
+- [build](Tools-Application-launcher/Build-Instructions.html) from the source
 
 
-See also [to integrate the launcher in my existing project ?](to integrate the launcher in my existing project ?)(#How)(#How to integrate the launcher in my existing project ?.md)''
+See also [](unnamed.html#How-to-integrate-the-launcher-in-my-existing-project-?)''
 
     1. How does CTK Application Launcher work ?
 The launcher looks for a setting file where the path of the real application and its associated environment variable are reported. While setting the environment and loading the real application, it can also display a splash screen.
@@ -46,23 +46,23 @@ pre
 
 The setting file should have the following format:
 pre
-[General](General)
+[General]
 launcherSplashImagePath=bin/Splash.png
 launcherSplashScreenHideDelayMs=1000
 
-[Application](Application)
+[Application]
 path=bin/AwesomeApp-real
 arguments=--multithreading-enabled
 
-[Paths](Paths)
+[Paths]
 1\path=./bin
 size=1
 
-[LibraryPaths](LibraryPaths)
+[LibraryPaths]
 1\path=./lib
 size=1
 
-[EnvironmentVariables](EnvironmentVariables)
+[EnvironmentVariables]
 FOO_DIRS=APPLAUNCHER_DIR/libPATHSEP/usr/local/lib
 /pre
 
@@ -76,7 +76,7 @@ As described below, the launcher also provides a broad set of command line argum
 pre
 jchris@karakoram:~/Projects/CTK-AppLauncher-Debug/bin $ ./CTKAppLauncher --launcher-help
 Usage
-  CTKAppLauncher [options](options)
+  CTKAppLauncher [options]
 
 Options
   --launcher-help                Display help
@@ -97,7 +97,7 @@ Options
 
     1. How to integrate the launcher in my existing project ?
       1. Superbuild
-- Integrate the [project definition](project definition)(external)(Tools:_Application_launcher/external project definition.md)
+- Integrate the [external project definition](Tools-Application-launcher/external-project-definition.html)
 - Use the macro **ctkAppLauncherConfigure** as described below
 pre
     INCLUDE(${CTKAPPLAUNCHER_DIR}/CMake/ctkAppLauncher.cmake)
@@ -146,21 +146,21 @@ pre
 1. Links for Developers
 {| cellspacing="20"
 |- style="vertical-align:top;"
-|| [150px|link=Tools:_Application_launcher/Build_Instructions](150px|link=Tools:_Application_launcher/Build_Instructions)(File:Commontk build.png.md)
-|| [150px|link=http://github.com/commontk/AppLauncher](150px|link=http://github.com/commontk/AppLauncher)(File:Commontk sourcecode.png.md)
+|| [![Commontk build](images/Commontk_build.png)](Tools-Application-launcher/Build-Instructions.html)
+|| [![Commontk sourcecode](images/Commontk_sourcecode.png)](http://github.com/commontk/AppLauncher)
 !--
-|| [150px|link=http://my.cdash.org/index.php?project=CTKAppLauncher](150px|link=http://my.cdash.org/index.php?project=CTKAppLauncher)(File:Commontk dashboard.png.md)
-|| [Ideas](Ideas)(150px|link=Tools:_Application_launcher/Project)(File:commontk_ideas.png.md)
+|| [![Commontk dashboard](images/Commontk_dashboard.png)](http://my.cdash.org/index.php?project=CTKAppLauncher)
+|| [![commontk ideas](images/Commontk_ideas.png)](Tools-Application-launcher/Project-Ideas.html)
 --
-|| [150px|link=http://github.com/commontk/AppLauncher/issues](150px|link=http://github.com/commontk/AppLauncher/issues)(File:Commontk bug.png.md)
+|| [![Commontk bug](images/Commontk_bug.png)](http://github.com/commontk/AppLauncher/issues)
 |- style="text-align:center; font-size: large"
-|| [Instructions](Instructions)(Build)(Tools:_Application_launcher/Build_Instructions.md)
-|| [Source Code](Source Code)(http://github.com/commontk/AppLauncher)
+|| [Build Instructions](Tools-Application-launcher/Build-Instructions.html)
+|| [Source Code](http://github.com/commontk/AppLauncher)
 !--
-|| [Source Code's br/Quality Dashboard](Source Code's br/Quality Dashboard)(http://my.cdash.org/index.php?project=CTKAppLauncher)
-|| [Ideas](Ideas)(Project)(Tools:_Application_launcher/Project_Ideas.md)
+|| [Source Code's br/Quality Dashboard](http://my.cdash.org/index.php?project=CTKAppLauncher)
+|| [Project Ideas](Tools-Application-launcher/Project-Ideas.html)
 --
-|| [Report a problem](Report a problem)(http://github.com/commontk/AppLauncher/issues)
+|| [Report a problem](http://github.com/commontk/AppLauncher/issues)
 |}
 
 !--
@@ -168,9 +168,9 @@ pre
 1. Links for Dashboard Maintainers
 {| cellspacing="20"
 |- style="vertical-align:top;"
-|| [setup](setup)(150px|link=CTKAppLauncher:Dashboard)(File:Commontk dashboard setup.png.md)
+|| [![Commontk dashboard setup](images/Commontk_dashboard_setup.png)](CTKAppLauncherDashboard-setup.html)
 |- style="text-align:center; font-size: large"
-|| [setup](setup)(Dashboard)(Tools:_Application_launcher/Dashboard setup.md)
+|| [Dashboard setup](Tools-Application-launcher/Dashboard-setup.html)
 |}
 
 --

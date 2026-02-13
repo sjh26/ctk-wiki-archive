@@ -1,8 +1,5 @@
 ---
 title: "Tools:Application launcher"
-render_with_liquid: false
 ---
 
-
-#REDIRECT [Application launcher](Application launcher)(Tools:)(Tools: Application launcher.md)
-
+#REDIRECT [Tools: Application launcher](Tools-Application-launcher.html)

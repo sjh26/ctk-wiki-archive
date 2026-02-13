@@ -1,11 +1,9 @@
 ---
 title: IntegrationLevel1Details
-render_with_liquid: false
 ---
 
-
 1. Scenarios for integration on the DICOM Application Hosting level
-[File:CTK-Level1.png](File:CTK-Level1.png)(File:CTK-Level1.png.md)
+![CTK Level1](images/CTK-Level1.png)
 
   1. Scenario 1a
 I have an application that I want to run integrated in an existing DICOM Application Host, e.g. a PACS viewer supporting DICOM Supplement 118.
@@ -23,6 +21,5 @@ I have an application, e.g. a PACS/DICOM viewer, that I want to extend with DICO
     1. Solution
 I use the CTK Dicom Application Hosting Module in my application to add intraoperability with a processing module available as a DICOM Hosted Application.
 
-[to overview ...](to overview ...)(Back)(CTKUsageScenarios.md)
-[File:Example.jpg](File:Example.jpg)(File:Example.jpg.md)
-
+[Back to overview ...](CTKUsageScenarios.html)
+![Example](images/Example.jpg)

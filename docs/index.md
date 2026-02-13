@@ -20,32 +20,29 @@ Welcome to the CommonTK (CTK - The Common Toolkit) wiki archive. This is a conve
 ## Key Topics
 
 ### DICOM
-- [DICOM Overview](DocumentationDICOM-Overview.html)
+- [DICOM Overview](Documentation/DICOM-Overview.html)
 - [CtkDICOM](CtkDICOM.html)
-- [DICOM Application Hosting](DocumentationDicomApplicationHosting.html)
+- [DICOM Application Hosting](Documentation/DicomApplicationHosting.html)
 
 ### Plugin Framework
-- [Plugin Framework Introduction](DocumentationCTK-Plugin-Framework-Introduction.html)
-- [Plugin Framework Getting Started](DocumentationCTK-Plugin-Framework-Getting-Started.html)
-- [Plugin Framework Tutorials](DocumentationCTK-Plugin-Framework-Tutorials.html)
+- [Plugin Framework Introduction](Documentation/CTK-Plugin-Framework-Introduction.html)
+- [Plugin Framework Getting Started](Documentation/CTK-Plugin-Framework-Getting-Started.html)
+- [Plugin Framework Tutorials](Documentation/CTK-Plugin-Framework-Tutorials.html)
 
 ### Widgets & UI
-- [Widgets Documentation](DocumentationWidgets.html)
-- [Image Gallery](DocumentationImageGallery.html)
+- [Widgets Documentation](Documentation/Widgets.html)
+- [Image Gallery](Documentation/ImageGallery.html)
 - [CTK In QtDesigner](CTK-In-QtDesigner.html)
 
 ### Build & Development
 - [Build Instructions](Build-Instructions.html)
-- [Build Options](DocumentationBuild-Options.html)
+- [Build Options](Documentation/Build-Options.html)
 - [Dashboard Setup](Dashboard-setup.html)
 
 ### Command Line Interface
-- [CLI Support in CTK](DocumentationCLI-Support-in-CTK.html)
-- [CLI Modules](DocumentationCLI-Modules.html)
+- [CLI Support in CTK](Documentation/CLI-Support-in-CTK.html)
+- [CLI Modules](Documentation/CLI-Modules.html)
 
 ## About
 
 This wiki archive was converted from MediaWiki format to Markdown for GitHub Pages.
-
-- Total pages converted: 108
-- Original source: CommonTK MediaWiki

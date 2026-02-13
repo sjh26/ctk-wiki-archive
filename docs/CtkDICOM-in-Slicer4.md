@@ -1,14 +1,12 @@
 ---
 title: CtkDICOM in Slicer4
-render_with_liquid: false
 ---
 
-
 1. Background
-[3D Slicer version 4](3D Slicer version 4)(http://www.slicer.org/slicerWiki/index.php/Slicer4) has been under development for several years and has grown along side CTK.  The DICOM support in Slicer4 draws heavily from the ctkDICOM effort and can serve as an example of how the CTK code can be used and what steps still need to be taken to make a more general tool.  This page was prepared as an outline for discussion at the [ November 2011 CTK Hackfest]( November 2011 CTK Hackfest)(CTK-Hackfest-Nov-2011 .md).
+[3D Slicer version 4](http://www.slicer.org/slicerWiki/index.php/Slicer4) has been under development for several years and has grown along side CTK.  The DICOM support in Slicer4 draws heavily from the ctkDICOM effort and can serve as an example of how the CTK code can be used and what steps still need to be taken to make a more general tool.  This page was prepared as an outline for discussion at the [November 2011 CTK Hackfest](CTK-Hackfest-Nov-2011.html).
 
   1. Driving Use cases for Slicer4 DICOM
-The [AMIGO Suite at Brigham and Women's Hospital](AMIGO Suite at Brigham and Women's Hospital)(http://www.ncigt.org/pages/AMIGO) is the focus of much image guided therapy development with Slicer4 as a main component.  Typical usage includes:
+The [AMIGO Suite at Brigham and Women's Hospital](http://www.ncigt.org/pages/AMIGO) is the focus of much image guided therapy development with Slicer4 as a main component.  Typical usage includes:
 - DICOM listener (manually or automatically push to slicer)
 - Query/Retrieve diagnostic scans from hospital PACS or previous procedure scans from Syngo Via (local PACS in AMIGO)
 - Ideally: Slicer Data Bundle to store planning information in PACS
@@ -20,7 +18,7 @@ Other (much more common) uses cases include:
 - Use DICOM as format to save, organize, and share research processing results
 
   1. Current Capabilities
-See [Slicer4 DICOM documentation page](Slicer4 DICOM documentation page)(http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.0/Modules/DICOM).
+See [Slicer4 DICOM documentation page](http://wiki.slicer.org/slicerWiki/index.php/Documentation/4.0/Modules/DICOM).
 
 - Import to ctkDICOMDatabase
 - Display with ctkDICOMAppWidget
@@ -51,8 +49,8 @@ See [Slicer4 DICOM documentation page](Slicer4 DICOM documentation page)(http://
 *** storescp, storescu
 *** dcmdump, img2dcm, dump2dcm
 - Code is in slicer4 repository
-** [DICOM.py scripted module](DICOM.py scripted module)(http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/QTScriptedModules/Scripts/DICOM.py?view=log)
-** [DICOMLib helper classes](DICOMLib helper classes)(http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/QTScriptedModules/DICOMLib/)
+** [DICOM.py scripted module](http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/QTScriptedModules/Scripts/DICOM.py?view=log)
+** [DICOMLib helper classes](http://viewvc.slicer.org/viewvc.cgi/Slicer4/trunk/QTScriptedModules/DICOMLib/)
 - Will be released as part of 3D Slicer 4.0 at RSNA in late November 2011
 
   1. Issues
@@ -78,7 +76,7 @@ See [Slicer4 DICOM documentation page](Slicer4 DICOM documentation page)(http://
 ** could use C-GET to bypass NAT
 ** could run dcmqrscp locally
 ** could have people install other dicom code
-** could install [XNAT Gateway](XNAT Gateway)(http://docs.xnat.org/XNAT-DICOM+Gateway)
+** could install [XNAT Gateway](http://docs.xnat.org/XNAT-DICOM+Gateway)
 - Users need help understanding configuration options (both inside ctkDICOM and on their servers)
 - Can ctkDICOM help developers manage UID allocation?
 
@@ -122,4 +120,3 @@ See [Slicer4 DICOM documentation page](Slicer4 DICOM documentation page)(http://
 ** *TODO*
 - Helper classes for well formed exports and SCs (correct UIDs)
 ** *TODO*
-

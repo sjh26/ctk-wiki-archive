@@ -1,10 +1,9 @@
 ---
 title: CTK-Hackfest-Nov-2014
-render_with_liquid: false
 ---
 
 1. Event pictures
-[600px](600px)(File:Ctk.2014,11.png.md)
+![Ctk.2014,11](images/Ctk.2014,11.png)
 
     1. Progress
   1. Introduction
@@ -16,11 +15,11 @@ German Cancer Research Center, Heidelberg, Germany
 
 More details to follow.
 
-**Goal:** A follow on to the [successful previous hackfests!](successful previous hackfests!)(wildly)(Commontk:Current_events#Past_events.md)
+**Goal:** A follow on to the [wildly successful previous hackfests!](CommontkCurrent-events.html#Past_events)
 
-**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ ctk roadmap]( ctk roadmap)(CTK-Roadmap .md).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
+**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ctk roadmap](CTK-Roadmap.html).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
 
-**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Site Hosts:** Marco Nolden, Sascha Zelzer, Ivo Wolf
 
@@ -108,19 +107,19 @@ Please fill in your intentions in terms of common accommodation.
 |}
 --
 
-{{Note}}There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
+`{{Note}}`There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 Phone conferences have been scheduled in the weeks leading to the event:
 
 **https://plus.google.com/hangouts/_/g3vi3lz7sycalj74ys2xpnpr3ya**
 
   1. Topics and Projects
-Consider reading [Contributing_to_CTK#Integrate_your_new_feature](Contributing_to_CTK#Integrate_your_new_feature)(http://www.commontk.org/index.php/Contributing_to_CTK#Integrate_your_new_feature)
+Consider reading [Contributing_to_CTK#Integrate_your_new_feature](http://www.commontk.org/index.php/Contributing_to_CTK#Integrate_your_new_feature)
 
 Reminder: when integrating branches, remember to use --log --no-ff when merging.
 
@@ -131,7 +130,7 @@ We plan to have concrete hacking topics as well as dedicated discussions in smal
 - Qt5 migration (Christian)
 ** compile and run on Mac
 - Packaging / install support (Marco, Jc)
-- Fix issue related to [Artichoke](Artichoke)(https://github.com/commontk/Artichoke) and improve documentation (Jc)
+- Fix issue related to [Artichoke](https://github.com/commontk/Artichoke) and improve documentation (Jc)
 - Dashboard
 ** General Situation: Continuous/Nightly clients, coverage
 ** Configurations: Qt4, Qt5, etc.
@@ -146,16 +145,16 @@ We plan to have concrete hacking topics as well as dedicated discussions in smal
 ** Support building with emscripten, pinnacle
 ** Multi-frame support (Steve, Christian, Michael)
 ** SEG support
-*** Investigate compatibility of DCMTK seg functionality with BrainLab segmentations; [sample dataset](sample dataset)(http://slicer.kitware.com/midas3/item/162562) (QIICR community, Steve has access) - RLE compressed
-*** Investigate DCMTK RLE compression tools applied to segmentations; trying to apply it to sample objects generates "F: No conversion to transfer syntax RLE Lossless possible!" error; [SPL segmentation dataset example](SPL segmentation dataset example)(http://slicer.kitware.com/midas3/item/162428), [PET segmentation example](PET segmentation example)(http://slicer.kitware.com/midas3/item/161740)
+*** Investigate compatibility of DCMTK seg functionality with BrainLab segmentations; [sample dataset](http://slicer.kitware.com/midas3/item/162562) (QIICR community, Steve has access) - RLE compressed
+*** Investigate DCMTK RLE compression tools applied to segmentations; trying to apply it to sample objects generates "F: No conversion to transfer syntax RLE Lossless possible!" error; [SPL segmentation dataset example](http://slicer.kitware.com/midas3/item/162428), [PET segmentation example](http://slicer.kitware.com/midas3/item/161740)
 
 - Making CLIs read and write valid DICOM (Steve, Michael)
 
 - Anonymization (Andreas Fetzer, Marco, Steve, Stefan, Ralf)
 ** Client-side options: gdcmanon, dcmtk (?), dcmjs, DicomCleaner, CTP...
-** Testing can use [ this freely sharable identified MR scan]( this freely sharable identified MR scan)(File:PieperMRI.tar.gz .md)
-** Goal is to de-identify with various tools and compare results with [supplement 142 of the DICOM standard](supplement 142 of the DICOM standard)(ftp://medical.nema.org/medical/dicom/Final/sup142_ft.pdf).
-** There is a separate page, which provides an overview of existing de-identification tools: [de-identification tool overview](de-identification tool overview)(DICOM)(DICOM de-identification tool overview.md)
+** Testing can use ![this freely sharable identified MR scan](images/PieperMRI.tar.gz)
+** Goal is to de-identify with various tools and compare results with [ftp://medical.nema.org/medical/dicom/Final/sup142_ft.pdf supplement 142 of the DICOM standard].
+** There is a separate page, which provides an overview of existing de-identification tools: [DICOM de-identification tool overview](DICOM-de-identification-tool-overview.html)
 
 - ctkDICOM improvments (Ralf); discussed ideas:
 ** Introduce "compact and detailed view mode" to ctkDICOMTableView and ctkDICOMTableManager. Basic idea is that you can give the widgets a list of "high priority" tags - in compact mode all columns of non priority tags will be filter. You can define the active mode via property / slot (to e.g. easily connect it with a control widget signal).
@@ -187,15 +186,15 @@ Start: The meeting room will be open starting at 9am. Official start and kick-of
 Opening discussion
 - Review topics and projects
 - Plans for the week
-- Review [open issues on github](open issues on github)(https://github.com/commontk/CTK/issues?state=open).
+- Review [open issues on github](https://github.com/commontk/CTK/issues?state=open).
 
 Afternoon:
 - Welcome by Prof. Hans-Peter Meinzer
-- Presentation about [Common Toolkit Jubilee](Common Toolkit Jubilee)(The)(Media:The_Common_Toolkit_Jubilee.pptx.md)
+- Presentation about [The Common Toolkit Jubilee](MediaThe-Common-Toolkit-Jubilee.pptx.html)
 
 Evening:
 
-- Dinner 20:15 @ [Kulturbrauerei](Kulturbrauerei)(http://www.heidelberger-kulturbrauerei.de/en/), [directions](directions)(https://www.google.de/maps/dir/Hotel+Holl%C3%A4nder+Hof,+Neckarstaden+66,+69117+Heidelberg/Kulturbrauerei+Heidelberg,+Leyergasse+6,+69117+Heidelberg/@49.413196,8.7102803,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4797c10638e496a5:0xe28b6a91325a2c23!2m2!1d8.709242!2d49.413192!1m5!1m1!1s0x4797c1a81df9996d:0xb0cec22d395e79e1!2m2!1d8.713414!2d49.41318!3e2), Pickup ~20:00 at Holl�nder Hof
+- Dinner 20:15 @ [Kulturbrauerei](http://www.heidelberger-kulturbrauerei.de/en/), [directions](https://www.google.de/maps/dir/Hotel+Holl%C3%A4nder+Hof,+Neckarstaden+66,+69117+Heidelberg/Kulturbrauerei+Heidelberg,+Leyergasse+6,+69117+Heidelberg/@49.413196,8.7102803,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4797c10638e496a5:0xe28b6a91325a2c23!2m2!1d8.709242!2d49.413192!1m5!1m1!1s0x4797c1a81df9996d:0xb0cec22d395e79e1!2m2!1d8.713414!2d49.41318!3e2), Pickup ~20:00 at Holl�nder Hof
 
       1. Tuesday
 Morning:
@@ -207,7 +206,7 @@ Morning:
 
 Afternoon:
  
-- 13:30 [Tour](Tour)(Lab)(CTK-Hackfest-Nov-2014/LabTour.md)
+- 13:30 [Lab Tour](CTK-Hackfest-Nov-2014/LabTour.html)
 
 Evening:
 
@@ -241,7 +240,7 @@ JC:
 - dcmjs: Improve user experience of http://dcmjs.org website
 - Re-started Slicer CTK CLI integration
 - Discussed extension of CLI schema to support optional parameter.
-- Improved CTK PythonQt wrapping to support import from regular python shell. See [commontk/CTK#520](commontk/CTK#520)(https://github.com/commontk/CTK/pull/520)
+- Improved CTK PythonQt wrapping to support import from regular python shell. See [commontk/CTK#520](https://github.com/commontk/CTK/pull/520)
 
 Hans:
 - Many discussion topics (Chronicle, CLI)
@@ -250,7 +249,7 @@ Hans:
 - OpenInventor - VTK integration
 
 Stefan:
-- Added [ mapping/de-identification]( mapping/de-identification)(Media:Testmr.txt .md) functionality to dcmjs (minimal feature set like CTP)
+- Added [mapping/de-identification](MediaTestmr.txt.html) functionality to dcmjs (minimal feature set like CTP)
 
 Steve:
 - dcmjs organize tool
@@ -301,7 +300,7 @@ During the day: hack, hack, hack...
 - CLI Elasticsearch (Hans)
 ** Search for keywords and get matching CLIs
 ** Use it to browse CLI descriptions and clean-up contents
-** [commontk/cli-indexer](commontk/cli-indexer)(https://github.com/commontk/cli-indexer) repository. Creates JSON descriptions from CLI XML.
+** [commontk/cli-indexer](https://github.com/commontk/cli-indexer) repository. Creates JSON descriptions from CLI XML.
 ** Every institution could publish the JSON description of their CLIs and publish it
 ** There is a pypi package for cli-indexer
 
@@ -310,27 +309,27 @@ Afternoon: hack or travel
   1. Travel  Hotel
     1. Local contacts
 - Marco Nolden (m.nolden@dkfz-heidelberg.de)
-- Sascha Zelzer (s.zelzer@dkfz-heidelberg.de) [130px](130px)(File:Sascha_phone.png.md)
+- Sascha Zelzer (s.zelzer@dkfz-heidelberg.de) ![Sascha phone](images/Sascha_phone.png)
 - Andreas Fetzer (a.fetzer@dkfz-heidelberg.de)
 
     1. Transportation
-It takes about an hour from Frankfurt Airport (FRA) to Heidelberg Main Station with one change in Mannheim. If you stay in the Old Town you can also look for connections going to "Heidelberg Altstadt". You can look it up at [Deutsche Bahn](Deutsche Bahn)(http://www.bahn.de/p_en/view/index.shtml), but they run quite frequently.
+It takes about an hour from Frankfurt Airport (FRA) to Heidelberg Main Station with one change in Mannheim. If you stay in the Old Town you can also look for connections going to "Heidelberg Altstadt". You can look it up at [Deutsche Bahn](http://www.bahn.de/p_en/view/index.shtml), but they run quite frequently.
 
-**Local:** from the Old Town, "Universit�tsplatz", runs [bus number 32](bus number 32)(http://www.vrn.de/mam/vrn/einfach-ankommen/dokumente/stadtlinienplaene/heidelberg_schematisch.pdf) ([geographic map](geographic map)(http://www.vrn.de/mam/vrn/einfach-ankommen/dokumente/stadtlinienplaene/heidelberg.pdf)) via Main Station to DKFZ, exit at "Chirurgische Klinik", bus direction is "Neuenheim". After you exit, DKFZ is on your right.
+**Local:** from the Old Town, "Universit�tsplatz", runs [bus number 32](http://www.vrn.de/mam/vrn/einfach-ankommen/dokumente/stadtlinienplaene/heidelberg_schematisch.pdf) ([geographic map](http://www.vrn.de/mam/vrn/einfach-ankommen/dokumente/stadtlinienplaene/heidelberg.pdf)) via Main Station to DKFZ, exit at "Chirurgische Klinik", bus direction is "Neuenheim". After you exit, DKFZ is on your right.
 
-[700px](700px)(File:Heidelberg_map.png.md)
+![Heidelberg map](images/Heidelberg_map.png)
 
-During the day the bus runs every 10 minutes in both directions, timetables are also available at [VRN](VRN)(http://fahrplanauskunft.vrn.de/vrn/XSLT_TRIP_REQUEST2?language=en).
+During the day the bus runs every 10 minutes in both directions, timetables are also available at [VRN](http://fahrplanauskunft.vrn.de/vrn/XSLT_TRIP_REQUEST2?language=en).
 
       1. To Frankfurt Airport
-The German Railways is affected by a strike from Thursday to Monday morning. Trains will operate on a limited basis - check the website of [Deutsch Bahn](Deutsch Bahn)(http://www.bahn.de).
+The German Railways is affected by a strike from Thursday to Monday morning. Trains will operate on a limited basis - check the website of [Deutsch Bahn](http://www.bahn.de).
 
-You may also use a [Shuttle Bus](Shuttle Bus)(http://www.transcontinental-group.com/en/airport-shuttle-buchen) departing from the Crown Plaza in Heidelberg. It is recommended to book online as early as possible.
+You may also use a [Shuttle Bus](http://www.transcontinental-group.com/en/airport-shuttle-buchen) departing from the Crown Plaza in Heidelberg. It is recommended to book online as early as possible.
 
     1. Lodging
 We recommend to stay in the historic Old Town. There is an easy direct bus ride every 10 minutes from there to DKFZ.
 
-We have reserved a number of rooms at the [Holl�nder Hof](Holl�nder Hof)(http://www.hollaender-hof.de/en/) ([map](map)(http://www.openstreetmap.org/?mlat=49.41317mlon=8.70925#map=19/49.41317/8.70925)) hotel! Please use "CTK 2014" when you do a reservation there. Of course there are plenty of other hotels in that area, e.g. [Goldener Hecht](Goldener Hecht)(http://www.hotel-goldener-hecht.de/) or the oldest house in town, [Hotel zum Ritter](Hotel zum Ritter)(http://www.ritter-heidelberg.de/).
+We have reserved a number of rooms at the [Holl�nder Hof](http://www.hollaender-hof.de/en/) ([map](http://www.openstreetmap.org/?mlat=49.41317mlon=8.70925#map=19/49.41317/8.70925)) hotel! Please use "CTK 2014" when you do a reservation there. Of course there are plenty of other hotels in that area, e.g. [Goldener Hecht](http://www.hotel-goldener-hecht.de/) or the oldest house in town, [Hotel zum Ritter](http://www.ritter-heidelberg.de/).
 
     1. Meeting Room
 The full address for the DKFZ is
@@ -343,20 +342,20 @@ We will meet in the main building on the second floor (European counting!). The 
 
 When leaving bus 32, you will see something similar to
 
-[600px](600px)(File:DKFZ_Bus.jpg.md)
+![DKFZ Bus](images/DKFZ_Bus.jpg)
 
 The large building on the right is the DKFZ main bulding
 
-[600px](600px)(File:DKFZ_Hauptgebaeude_neu_600x402.jpg.md)
+![DKFZ Hauptgebaeude neu 600x402](images/DKFZ_Hauptgebaeude_neu_600x402.jpg)
 
 Walk through the main entrance and follow the map
 
-[600px](600px)(File:DKFZ_Hackfest_map.jpg.md)
+![DKFZ Hackfest map](images/DKFZ_Hackfest_map.jpg)
 
 Ask the nice guys at the reception or call us in case of any problems.
 
     1. Weather
-November is a rather wet month. [Average weather in Heidelberg](Average weather in Heidelberg)(http://www.weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine,heidelberg,Germany)
+November is a rather wet month. [Average weather in Heidelberg](http://www.weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine,heidelberg,Germany)
 
     1. Food
 Plan on having breakfast at your hotel before the meeting. Please email the organizers if you have any allergies or dietary restrictions. 

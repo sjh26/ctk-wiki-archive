@@ -1,26 +1,25 @@
 ---
 title: Getting Started
-render_with_liquid: false
 ---
 
 1. New community member checklist
-nbsp;nbsp;{{Done}}nbsp;nbsp;nbsp;Join
+nbsp;nbsp;`{{Done}}`nbsp;nbsp;nbsp;Join
 
-:: [Sign-up](Sign-up)(http://public.kitware.com/mailman/listinfo/ctk-developers) on the community mailing list
-:: Sign-up on [Github](Github)(https://github.com/join) and [fork](fork)(https://github.com/commontk/CTK) the repository
-
-
-nbsp;nbsp;{{Done}}nbsp;nbsp;nbsp;Read
-
-:: Main scope of current CTK efforts on the [Page](Page)(Main)(Main Page.md). 
-:: Instructions to build CTK are available [here](here)(Build_Instructions.md).
-:: Integrate CTK: The [Examples](Examples)(http://www.github.com/commontk/Examples) project shows how to integrate CTK within an application.
-:: Add CTK widgets in Qt Designer: [by step guide](by step guide)(Step)(CTK_In_QtDesigner.md) to load the CTK plugins in the Qt Designer.
+:: [Sign-up](http://public.kitware.com/mailman/listinfo/ctk-developers) on the community mailing list
+:: Sign-up on [Github](https://github.com/join) and [fork](https://github.com/commontk/CTK) the repository
 
 
-nbsp;nbsp;{{Done}}nbsp;nbsp;nbsp;Contribute
-:: To improve this wiki: [an account](an account)(request)(Special:RequestAccount.md).
-:: [How to contribute a patch creating a pull request?](How to contribute a patch creating a pull request?)(Step-by-step:)(Contributing_to_CTK.md)
+nbsp;nbsp;`{{Done}}`nbsp;nbsp;nbsp;Read
+
+:: Main scope of current CTK efforts on the [Main Page](Main-Page.html). 
+:: Instructions to build CTK are available [here](Build-Instructions.html).
+:: Integrate CTK: The [Examples](http://www.github.com/commontk/Examples) project shows how to integrate CTK within an application.
+:: Add CTK widgets in Qt Designer: [Step by step guide](CTK-In-QtDesigner.html) to load the CTK plugins in the Qt Designer.
+
+
+nbsp;nbsp;`{{Done}}`nbsp;nbsp;nbsp;Contribute
+:: To improve this wiki: [request an account](SpecialRequestAccount.html).
+:: [Step-by-step: How to contribute a patch creating a pull request?](Contributing-to-CTK.html)
 
 
 1. CTK mailing list

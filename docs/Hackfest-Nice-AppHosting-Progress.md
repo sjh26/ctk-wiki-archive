@@ -1,8 +1,6 @@
 ---
 title: Hackfest Nice AppHosting Progress
-render_with_liquid: false
 ---
-
 
 1. Infrastructure
 - Conformance to the official Part 19 App Hosting WSDL
@@ -15,4 +13,3 @@ render_with_liquid: false
 - Trying to integrate a hosted app in GIMIAS
 - Trying to integrate a hosted app in MAF3
 - Trying to integrate a hosted app in MITK
-

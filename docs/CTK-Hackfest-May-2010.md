@@ -1,14 +1,12 @@
 ---
 title: CTK-Hackfest-May-2010
-render_with_liquid: false
 ---
-
 
 1. Event pictures
 {|
 |align="left"|This is a working meeting - the goal is to start writing code!
-|[team hacking.../big](team hacking.../big)(thumb|300px|bigCTK)(File:DSC00681.JPG.md)
-|[team hacking.../big](team hacking.../big)(thumb|300px|bigCTK)(File:DSC00684.JPG.md)
+|![CTK team hacking...](images/DSC00681.JPG)
+|![CTK team hacking...](images/DSC00684.JPG)
 |}
 
 
@@ -16,15 +14,15 @@ render_with_liquid: false
 **Date:** May 17-21
 
 **Location:** 
-:Georgetown University, [ISIS Center](ISIS Center)(http://www.isis.georgetown.edu)
-:2115 Wisconsin Ave. NW. Ste 603, Washington, DC 20007 ([Google map](Google map)(http://maps.google.com/maps?f=qsource=s_qhl=engeocode=q=2115+Wisconsin+Ave.+NW.+Ste+603,+Washington,+DC+20007sll=37.0625,-95.677068sspn=54.401733,135.263672ie=UTF8hq=hnear=2115+Wisconsin+Ave+NW+%23603,+Washington,+District+of+Columbia,+20007ll=38.917608,-77.068346spn=0.003301,0.008256z=18))
+:Georgetown University, [ISIS Center](http://www.isis.georgetown.edu)
+:2115 Wisconsin Ave. NW. Ste 603, Washington, DC 20007 ([Google map](http://maps.google.com/maps?f=qsource=s_qhl=engeocode=q=2115+Wisconsin+Ave.+NW.+Ste+603,+Washington,+DC+20007sll=37.0625,-95.677068sspn=54.401733,135.263672ie=UTF8hq=hnear=2115+Wisconsin+Ave+NW+%23603,+Washington,+District+of+Columbia,+20007ll=38.917608,-77.068346spn=0.003301,0.008256z=18))
 :USA
 
-**Goal:** A follow on to the wildly successful [March 2010 pre-hackfest](March 2010 pre-hackfest)(http://www.na-mic.org/Wiki/index.php/Events:CTK-Pre-Hackfest-2010).
+**Goal:** A follow on to the wildly successful [March 2010 pre-hackfest](http://www.na-mic.org/Wiki/index.php/Events:CTK-Pre-Hackfest-2010).
 
 **Requirements:** attendees must be willing to spend their time with the details of dicom, git, cmake, c++, Qt, vtk, itk, openinventor, and related technologies.  People who do not feel qualified for this are politely not invited :)
 
-**Group size:** maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Organizers:** Ivo Wolf, Steve Pieper, Stephen Aylward
 
@@ -54,12 +52,12 @@ render_with_liquid: false
 **Future Events:** The organizing committee invited a group of developers to get the CTK project started and we've believe we've reached capacity for this event.  Future hackfests will be announced in advance and we hope lots of people will be interested in participating.  The venue and activities at future hackfests will be determined based on the number of active participants in the project.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/pieper/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/pieper/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
   1. Topics and Projects
-Pick up threads of discussion and activity from [Pre-Hackfest](Pre-Hackfest)(http://www.na-mic.org/Wiki/index.php/Events:CTK-Hackfest-2010)
+Pick up threads of discussion and activity from [Pre-Hackfest](http://www.na-mic.org/Wiki/index.php/Events:CTK-Hackfest-2010)
 
 General set of topics (attendees, please flesh this out with your own ideas!)
 
@@ -95,10 +93,10 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
     1. Widgets
 - Julien F.
-- Review of CTKWidgets and [wishlist](wishlist)(Documentation/WidgetPlans.md)
+- Review of CTKWidgets and [wishlist](Documentation/WidgetPlans.html)
 - PythonQt
 - Wednesday
-** progress on [function](function)(transfer)(Documentation/ctkTransferFunctionWidget.md) editor
+** progress on [transfer function](Documentation/ctkTransferFunctionWidget.html) editor
 - Friday
 ** New functionality in transfer function editor
 ** Some new widgets from DICOM
@@ -107,7 +105,7 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
     1. Events and Communications
 - Patrick
-- [and Intra-process events](and Intra-process events)(Inter-)(Documentation/Events.md)
+- [Inter- and Intra-process events](Documentation/Events.html)
 - Sascha
 - EventBus as a Service
 - Wednesday
@@ -123,7 +121,7 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
     1. Plugins, Modules
 - Sascha
-- Plugin system: [Design Document](Design Document)(http://github.com/commontk/CTK/wiki/CTK-Plugin-Framework)
+- Plugin system: [Design Document](http://github.com/commontk/CTK/wiki/CTK-Plugin-Framework)
 ** Xavier: Writing a plugin for a vtk bulls eye plot as a service
 ** Xavier: Writing an LDAP expression filter for use in the service framework
 ** Sascha: Finishing the service registry for the plugin framework
@@ -133,7 +131,7 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
     1. Interoperability
 - Oliver
-- [systems at the OpenGL level (i.e. VTK and OpenInventor)](systems at the OpenGL level (i.e. VTK and OpenInventor))(Interfacing)(Documentation/Interfacing_Via_OpenGL.md)
+- [Interfacing systems at the OpenGL level (i.e. VTK and OpenInventor)](Documentation/Interfacing-Via-OpenGL.html)
 - Wednesday
 ** VTK/Inventor integration - basic demo working, but many integration issues being investigated
 - Friday
@@ -143,7 +141,7 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
     1. Organization and Workflow
 - Steve and Jean-Christophe
-- Conventions for using git.  Ideas: [gitwash example](gitwash example)(https://cirl.berkeley.edu/mb312/gitwash/index.html), [dead simple example](dead simple example)(http://www.dinnermint.org/tutorial/dead-simple-git-workflow-for-agile-teams/), [vtk plans](vtk plans)(http://www.vtk.org/Wiki/VTK/Git).
+- Conventions for using git.  Ideas: [gitwash example](https://cirl.berkeley.edu/mb312/gitwash/index.html), [dead simple example](http://www.dinnermint.org/tutorial/dead-simple-git-workflow-for-agile-teams/), [vtk plans](http://www.vtk.org/Wiki/VTK/Git).
 - Coding styles and conventions
 - Dashboard issues (setting up nightly and continuous build machines)
 ** Dash21 now has a nightly (documentation + coverage) and continuous dashboard
@@ -182,10 +180,10 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 1. For flights you can use Dulles Airport (code: **IAD**) (most international flights), National Airport (code: **DCA**) (closest), or Baltimore Airport (code: **BWI**) (alternative international airport but the furthest away)
 #* DCA is about 7 miles away
 #** Travel option 1: Taxi ($25)
-#** Travel option 2: Metro blue line ($1.35 direction Largo Town, [see map](see map)(http://www.wmata.com/rail/maps/map.cfm)) to Rosslyn, and then take a taxi ($10)
+#** Travel option 2: Metro blue line ($1.35 direction Largo Town, [see map](http://www.wmata.com/rail/maps/map.cfm)) to Rosslyn, and then take a taxi ($10)
 #* IAD is about 23 miles away from the hotel
-#** Travel option 1: Taxi/[Super Shuttle](Super Shuttle)(http://www.supershuttle.com/) ($50)
-#** Travel option 2: [Bus 5A](Bus 5A)(http://www.wmata.com/getting_around/metro_events/5a%20Time%20Table_1.pdf) ($3-$4) to Rosslyn, then take a Taxi ($10)
+#** Travel option 1: Taxi/[Super Shuttle](http://www.supershuttle.com/) ($50)
+#** Travel option 2: [Bus 5A](http://www.wmata.com/getting_around/metro_events/5a%20Time%20Table_1.pdf) ($3-$4) to Rosslyn, then take a Taxi ($10)
 
 **Hotel**
 1. We are reserving a room block at the Georgetown Holiday Inn: http://www.higeorgetown.com/
@@ -198,4 +196,3 @@ General set of topics (attendees, please flesh this out with your own ideas!)
 
 **Connectivity**
 1. We will provide both wired and wireless connection
-

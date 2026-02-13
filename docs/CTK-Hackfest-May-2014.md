@@ -1,6 +1,5 @@
 ---
 title: CTK-Hackfest-May-2014
-render_with_liquid: false
 ---
 
 1. Event pictures
@@ -12,7 +11,7 @@ File:20140506_174248.jpg|bigHacking on Tuesday/big
 
 Social programs
 gallery widths=150 px heights=100px perrow=4
-File:ctk2014arch.JPG|[Visiting the Gateway Arch!](Visiting the Gateway Arch!)(http://en.wikipedia.org/wiki/Gateway_Arch)
+File:ctk2014arch.JPG|[Visiting the Gateway Arch!](http://en.wikipedia.org/wiki/Gateway_Arch)
 /gallery
 
 
@@ -26,15 +25,15 @@ gallery widths=400px heights=300px perrow=2
 
 **Location:**
 
-ERL conference room, [Washington University Saint Louis](Washington University Saint Louis)(http://www.wustl.edu/), [Electronic Radiology Laboratory](Electronic Radiology Laboratory)(http://erl.wustl.edu/aboutus/location.html), 4525 Scott Avenue, 3rd floor, room 3347.
+ERL conference room, [Washington University Saint Louis](http://www.wustl.edu/), [Electronic Radiology Laboratory](http://erl.wustl.edu/aboutus/location.html), 4525 Scott Avenue, 3rd floor, room 3347.
 
-[How to get here.](How to get here.)(http://erl.wustl.edu/aboutus/location.html)
+[How to get here.](http://erl.wustl.edu/aboutus/location.html)
 
-**Goal:** A follow on to the [successful previous hackfests!](successful previous hackfests!)(wildly)(Commontk:Current_events#Past_events.md)
+**Goal:** A follow on to the [wildly successful previous hackfests!](CommontkCurrent-events.html#Past_events)
 
-**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ ctk roadmap]( ctk roadmap)(CTK-Roadmap .md).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
+**Requirements:** Attendees must be willing to spend their time during the event writing ctk code that contributes to the main [ctk roadmap](CTK-Roadmap.html).  This means spending the week immersed in C++, Qt, DCMTK, CMake, and related technologies.  People who do not feel qualified for this task are politely not invited :)
 
-**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam)(TheTeam.md).
+**Group size:** Maximum 20 participants so we can have a manageable working meeting.  The organizing committee will invite and select participants based on input from [TheTeam](TheTeam.html).
 
 **Site Hosts:** Lawrence Tarbox and Dan Marcus
 
@@ -99,7 +98,7 @@ Please fill in your intentions in terms of common accommodation.
 ! scope=col style="background:#cde6f8;"| Organization
 ! scope=col style="background:#cde6f8;"| Availablity (St. Louis time)
 |-
-|[Jeremy Bentham's auto-icon](Jeremy Bentham's auto-icon)(http://en.wikipedia.org/wiki/Jeremy_Bentham#Death_and_the_Auto-Icon)
+|[Jeremy Bentham's auto-icon](http://en.wikipedia.org/wiki/Jeremy_Bentham#Death_and_the_Auto-Icon)
 |University College, London
 | Anytime
 |-
@@ -117,33 +116,33 @@ Please fill in your intentions in terms of common accommodation.
 |}
 --
 
-{{Note}}There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
+`{{Note}}`There were also other invitations sent to active people on the community, and people who recently showed interest. When their intent will be known they will be added to the list.
 
   1. Preparation
-Developers should bring a laptop with the [current CTK source code](current CTK source code)(http://github.com/commontk/CTK) downloaded and [built](built)(Build_Instructions.md).
+Developers should bring a laptop with the [current CTK source code](http://github.com/commontk/CTK) downloaded and [built](Build-Instructions.html).
 
-Use the [CTK developers mailing list](CTK developers mailing list)(http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
+Use the [CTK developers mailing list](http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers) to discuss build issues and topics for ongoing work.
 
 Phone conferences have been scheduled in the weeks leading to the event:
 - To be announced
 
   1. Topics and Projects
-Consider reading [Contributing_to_CTK#Integrate_your_new_feature](Contributing_to_CTK#Integrate_your_new_feature)(http://www.commontk.org/index.php/Contributing_to_CTK#Integrate_your_new_feature)
+Consider reading [Contributing_to_CTK#Integrate_your_new_feature](http://www.commontk.org/index.php/Contributing_to_CTK#Integrate_your_new_feature)
 
     1. DICOM
-- Investigate web service approach (WG27): [DICOM Web Services](DICOM Web Services)(CTK)(CTK DICOM Web Services.md)
+- Investigate web service approach (WG27): [CTK DICOM Web Services](CTK-DICOM-Web-Services.html)
 - JavaScript DICOM Library
 ** For client side anonymization (like CTP does with java applet or jnlp but without java)
-** emscripten option? DCMTK(dcmdata) Dan, Kevin, Steve, Jc  {{done}} See http://dcmjs.org
+** emscripten option? DCMTK(dcmdata) Dan, Kevin, Steve, Jc  `{{done}}` See http://dcmjs.org
 
 
     1. DCMTK
-- delTouch base with Michael for CMake build system patches/del. All patches have been integrated upstream. {{done}}
+- delTouch base with Michael for CMake build system patches/del. All patches have been integrated upstream. `{{done}}`
 - Bump version of DCMTK in CTK
 
 
     1. ctkDICOM Issues
-- [Slicer Infrastructure Projects](Slicer Infrastructure Projects)(https://github.com/QIICR/ProjectIssuesAndWiki/wiki/Slicer-Infrastructure-Projects) (Alireza with Andreas and Marco)
+- [Slicer Infrastructure Projects](https://github.com/QIICR/ProjectIssuesAndWiki/wiki/Slicer-Infrastructure-Projects) (Alireza with Andreas and Marco)
 - Fix ctkDICOMApplicationTest1 (Steve, Jc)
 - ctkDICOM Query with XNAT DICOM Gateway (Andreas, Misha)
 
@@ -159,11 +158,11 @@ Consider reading [Contributing_to_CTK#Integrate_your_new_feature](Contributing_t
 
 
     1. Infrastructure
-- Switch to regular CDash dashboard (jc)  {{done}}
+- Switch to regular CDash dashboard (jc)  `{{done}}`
 - finalize integration of Qt5
 ** ctk (J2 and Sascha)
 ** Experiment with PythonQt and Qt5:
-*** See https://github.com/Orochimarufan/PythonQt as discussed [on the PythonQt list](on the PythonQt list)(http://sourceforge.net/p/pythonqt/discussion/631392/thread/5f20c176/?limit=50)
+*** See https://github.com/Orochimarufan/PythonQt as discussed [on the PythonQt list](http://sourceforge.net/p/pythonqt/discussion/631392/thread/5f20c176/?limit=50)
 *** See https://github.com/commontk/PythonQt/tree/add-qt5-support
 - Leverage TravisCI (Sascha)
 - Touch base with Dominique Belhachemi regarding Debian packaging (Marco)
@@ -190,14 +189,14 @@ Reminder: when integrating branches, remember to use --log --no-ff when merging.
 Opening discussion
 - Review topics and projects
 - Plans for the week
-- Review [open issues on github](open issues on github)(https://github.com/commontk/CTK/issues?state=open).
+- Review [open issues on github](https://github.com/commontk/CTK/issues?state=open).
 
 Evening:
 
       1. Tuesday
 During the day: hack, hack, hack...
 
-[dcmjs.org is born!](dcmjs.org is born!)(http://dcmjs.org)
+[dcmjs.org is born!](http://dcmjs.org)
 
 Evening:
 
@@ -235,7 +234,7 @@ Within walking distance is the Parkway Hotel (83% thumbs up and ranked #23 out o
 
 
     1. Weather
-[Average weather in St. Louis](Average weather in St. Louis)(http://www.weather.com/weather/wxclimatology/monthly/graph/USMO0787)
+[Average weather in St. Louis](http://www.weather.com/weather/wxclimatology/monthly/graph/USMO0787)
 
     1. Food
 Plan on having breakfast at your hotel before the meeting. Please email the organizers if you have any allergies or dietary restrictions. 
